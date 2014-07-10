@@ -28,7 +28,7 @@
     <message>
         <location filename="aboutbox.cpp" line="42"/>
         <source>Website: %1</source>
-        <translation>Nettsted: %1</translation>
+        <translation type="unfinished">Nettside: %1</translation>
     </message>
 </context>
 <context>
@@ -41,7 +41,7 @@
     <message>
         <location filename="addchannelsgroup.ui" line="24"/>
         <source>Group Name</source>
-        <translation>Gruppe Navn</translation>
+        <translation type="unfinished">Gruppenavn</translation>
     </message>
     <message>
         <location filename="addchannelsgroup.ui" line="48"/>
@@ -87,7 +87,7 @@
     <message>
         <location filename="addchannelsgroup.ui" line="119"/>
         <source>Choose an external input universe and channel that this group should listen to</source>
-        <translation>Velg en ekstern inngangs universet og kanal som denne gruppen skal høre etter</translation>
+        <translation type="unfinished">Velg en ekstern inngangsuniverset og kanal som denne gruppen skal lytte på</translation>
     </message>
     <message>
         <location filename="addchannelsgroup.ui" line="122"/>
@@ -102,7 +102,7 @@
     <message>
         <location filename="addchannelsgroup.ui" line="132"/>
         <source>Auto Detect</source>
-        <translation>Auto Oppdage</translation>
+        <translation type="unfinished">Auto-oppdage</translation>
     </message>
     <message>
         <location filename="addchannelsgroup.ui" line="142"/>
@@ -238,123 +238,123 @@
     <message>
         <location filename="addrgbpanel.ui" line="14"/>
         <source>Add RGB Panel</source>
-        <translation></translation>
+        <translation type="unfinished">Legg til RGB Panel</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="215"/>
         <source>Panel properties</source>
-        <translation></translation>
+        <translation type="unfinished">Panel egenskaper</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="229"/>
         <source>Universe:</source>
-        <translation></translation>
+        <translation type="unfinished">Univers:</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="236"/>
         <source>RGB Panel</source>
-        <translation></translation>
+        <translation type="unfinished">RGB Panel</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="243"/>
         <source>Name:</source>
-        <translation></translation>
+        <translation type="unfinished">Navn:</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="253"/>
         <source>Address:</source>
-        <translation></translation>
+        <translation type="unfinished">Adresse:</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="270"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;ERROR: Address already used !&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;FEIL: Adressen er i bruk !&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="24"/>
         <source>Size</source>
-        <translation></translation>
+        <translation type="unfinished">Størrelse</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="38"/>
         <source>Columns:</source>
-        <translation></translation>
+        <translation type="unfinished">Kolonner:</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="45"/>
         <source>Rows:</source>
-        <translation></translation>
+        <translation type="unfinished">Rader:</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="52"/>
         <source>Total pixels:</source>
-        <translation></translation>
+        <translation type="unfinished">Total pixler:</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="85"/>
         <source>100</source>
-        <translation></translation>
+        <translation type="unfinished">100</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="97"/>
         <source>Orientation</source>
-        <translation></translation>
+        <translation type="unfinished">Orientering</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="103"/>
         <source>Top-Right</source>
-        <translation></translation>
+        <translation type="unfinished">Topp-Høyre</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="110"/>
         <source>Top-Left</source>
-        <translation></translation>
+        <translation type="unfinished">Topp-Venstre</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="120"/>
         <source>Bottom-Left</source>
-        <translation></translation>
+        <translation type="unfinished">Bunn-Venstre</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="127"/>
         <source>Bottom-Right</source>
-        <translation></translation>
+        <translation type="unfinished">Bunn-Høyre</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="147"/>
         <source>Physical</source>
-        <translation></translation>
+        <translation type="unfinished">Fysisk</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="164"/>
         <source>Width:</source>
-        <translation></translation>
+        <translation type="unfinished">Bredde:</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="171"/>
         <location filename="addrgbpanel.ui" line="194"/>
         <source>mm</source>
-        <translation></translation>
+        <translation type="unfinished">mm</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="187"/>
         <source>Height:</source>
-        <translation></translation>
+        <translation type="unfinished">Høyde:</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="282"/>
         <source>Displacement</source>
-        <translation></translation>
+        <translation type="unfinished">Displacement</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="288"/>
         <source>Snake</source>
-        <translation></translation>
+        <translation type="unfinished">Snake</translation>
     </message>
     <message>
         <location filename="addrgbpanel.ui" line="298"/>
         <source>Zig Zag</source>
-        <translation></translation>
+        <translation type="unfinished">Zig Zag</translation>
     </message>
 </context>
 <context>
@@ -362,77 +362,77 @@
     <message>
         <location filename="addvcbuttonmatrix.ui" line="14"/>
         <source>Add Button Matrix</source>
-        <translation>Lisää painikematriisi</translation>
+        <translation type="unfinished">Legg Til Matrise med Knapper</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="34"/>
         <source>Add functions to be attached to the buttons in the matrix</source>
-        <translation>Valitse funktiot, jotka liitetään uusiin painikkeisiin automaattisesti</translation>
+        <translation type="unfinished">Legg til funksjoner for oppkobling til knappene i matrisen</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="54"/>
         <source>Remove selected functions from the list of functions to attach</source>
-        <translation>Poista valitut funktiot</translation>
+        <translation type="unfinished">Slett valgte funksjoner fra listen med funksjoner for oppkobling</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="87"/>
         <source>Dimensions</source>
-        <translation>Mittasuhteet</translation>
+        <translation type="unfinished">Dimensjoner</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="93"/>
         <source>Horizontal button count</source>
-        <translation>Painikkeita vaakasuunnassa</translation>
+        <translation type="unfinished">Antall horisontale knapper</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="100"/>
         <source>Number of buttons per horizontal row</source>
-        <translation>Nappien lukumäärä vaakariviä kohti</translation>
+        <translation type="unfinished">Antal knapper pr horisontal rad</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="120"/>
         <source>Created buttons&apos; size</source>
-        <translation>Nappien koko</translation>
+        <translation type="unfinished">Lagt til knapp størrelse</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="136"/>
         <source>Vertical button count</source>
-        <translation>Painikkeita pystysuunnassa</translation>
+        <translation type="unfinished">Antall vertikale knapper</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="143"/>
         <source>Number of buttons per vertical column</source>
-        <translation>Nappien lukumäärä saraketta kohti</translation>
+        <translation type="unfinished">Antal knapper pr vertikal rad</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="153"/>
         <source>Allocation</source>
-        <translation>Käyttöaste</translation>
+        <translation type="unfinished">Tildeling</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="160"/>
         <source>Functions / Buttons</source>
-        <translation>Funktioita / nappeja</translation>
+        <translation type="unfinished">Funksjoner / Knapper</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="173"/>
         <source>Frame</source>
-        <translation>Kehys</translation>
+        <translation type="unfinished">Ramme</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="179"/>
         <source>Place the buttons inside a normal frame</source>
-        <translation>Asettele napit tavallisen kehyksen sisään</translation>
+        <translation type="unfinished">Plasser knappene inni en normal ramme</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="182"/>
         <source>Normal</source>
-        <translation>Tavallinen</translation>
+        <translation type="unfinished">Normal</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="189"/>
         <source>Place the buttons inside a frame that ensures that only one of them is pressed at a time</source>
-        <translation>Asettele napit kehyksen sisään, joka varmistaa, että vain yksi napeista on painettuna kerrallaan</translation>
+        <translation type="unfinished">Plasser knappen inni en ramme som garanterer at bare en knapp er trykket samtidig</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="192"/>
@@ -442,7 +442,7 @@
     <message>
         <location filename="addvcbuttonmatrix.ui" line="113"/>
         <source>Button size</source>
-        <translation>Painikkeiden koko</translation>
+        <translation type="unfinished">Knappestørrelse</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="123"/>
@@ -452,12 +452,12 @@
     <message>
         <location filename="addvcbuttonmatrix.ui" line="21"/>
         <source>Function</source>
-        <translation>Funktio</translation>
+        <translation type="unfinished">Funksjon</translation>
     </message>
     <message>
         <location filename="addvcbuttonmatrix.ui" line="26"/>
         <source>Type</source>
-        <translation>Tyyppi</translation>
+        <translation type="unfinished">Type</translation>
     </message>
 </context>
 <context>
@@ -465,32 +465,32 @@
     <message>
         <location filename="addvcslidermatrix.ui" line="14"/>
         <source>Add Slider Matrix</source>
-        <translation>Lisää liukumatriisi</translation>
+        <translation type="unfinished">Legge Til Glidebryter Matrise </translation>
     </message>
     <message>
         <location filename="addvcslidermatrix.ui" line="20"/>
         <source>Sliders</source>
-        <translation>Liu&apos;ut</translation>
+        <translation type="unfinished">Glidebrytere</translation>
     </message>
     <message>
         <location filename="addvcslidermatrix.ui" line="26"/>
         <source>Amount</source>
-        <translation>Määrä</translation>
+        <translation type="unfinished">Antall</translation>
     </message>
     <message>
         <location filename="addvcslidermatrix.ui" line="33"/>
         <source>Number of sliders to create</source>
-        <translation>Luotavien liukujen määrä</translation>
+        <translation type="unfinished">Antall glidebrytere å legge til</translation>
     </message>
     <message>
         <location filename="addvcslidermatrix.ui" line="43"/>
         <source>Height</source>
-        <translation>Korkeus</translation>
+        <translation type="unfinished">Høyde</translation>
     </message>
     <message>
         <location filename="addvcslidermatrix.ui" line="50"/>
         <source>Vertical height of each slider</source>
-        <translation>Liukujen korkeus</translation>
+        <translation type="unfinished">Vertikal høyde på hver glidebryter</translation>
     </message>
     <message>
         <location filename="addvcslidermatrix.ui" line="53"/>
@@ -501,7 +501,7 @@
     <message>
         <location filename="addvcslidermatrix.ui" line="69"/>
         <source>Width</source>
-        <translation>Leveys</translation>
+        <translation type="unfinished">Bredde</translation>
     </message>
 </context>
 <context>
@@ -509,28 +509,28 @@
     <message>
         <location filename="addresstool.ui" line="14"/>
         <source>Address Tool</source>
-        <translation></translation>
+        <translation type="unfinished">Adresseverktøy</translation>
     </message>
     <message>
         <location filename="addresstool.ui" line="22"/>
         <source>Reverse vertically</source>
-        <translation></translation>
+        <translation type="unfinished">Reversere vertikalt</translation>
     </message>
     <message>
         <location filename="addresstool.ui" line="35"/>
         <source>Colour</source>
         <oldsource>Color</oldsource>
-        <translation></translation>
+        <translation type="unfinished">Farge</translation>
     </message>
     <message>
         <location filename="addresstool.ui" line="51"/>
         <source>Address</source>
-        <translation>Osoite</translation>
+        <translation type="unfinished">Adresse</translation>
     </message>
     <message>
         <location filename="addresstool.ui" line="98"/>
         <source>Reverse Horizontally</source>
-        <translation></translation>
+        <translation type="unfinished">Reversere horisontalt</translation>
     </message>
 </context>
 <context>
