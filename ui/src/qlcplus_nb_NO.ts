@@ -2348,32 +2348,32 @@ Varighet: %3
     <message>
         <location filename="fixtureremap.ui" line="14"/>
         <source>Fixtures Remap</source>
-        <translation></translation>
+        <translation type="unfinished">Enhetsoppdateringer</translation>
     </message>
     <message>
         <location filename="fixtureremap.ui" line="28"/>
         <source>Add target fixture...</source>
-        <translation></translation>
+        <translation type="unfinished">Legg til målenehet...</translation>
     </message>
     <message>
         <location filename="fixtureremap.ui" line="45"/>
         <source>Remove target fixture...</source>
-        <translation></translation>
+        <translation type="unfinished">Fjern målenhet...</translation>
     </message>
     <message>
         <location filename="fixtureremap.ui" line="69"/>
         <source>Clone and auto-remap the selected source fixture</source>
-        <translation></translation>
+        <translation type="unfinished">Klone og automatisk oppdater den valgte kildeenheten</translation>
     </message>
     <message>
         <location filename="fixtureremap.ui" line="93"/>
         <source>Connect selections...</source>
-        <translation></translation>
+        <translation type="unfinished">Koble til valgte...</translation>
     </message>
     <message>
         <location filename="fixtureremap.ui" line="110"/>
         <source>Disconnect selections...</source>
-        <translation></translation>
+        <translation type="unfinished">Koble fra valgte...</translation>
     </message>
     <message>
         <location filename="fixtureremap.ui" line="113"/>
@@ -2383,64 +2383,64 @@ Varighet: %3
     <message>
         <location filename="fixtureremap.ui" line="164"/>
         <source>Remapped Fixtures</source>
-        <translation></translation>
+        <translation type="unfinished">Oppdaterte Enheter</translation>
     </message>
     <message>
         <location filename="fixtureremap.ui" line="169"/>
         <location filename="fixtureremap.ui" line="201"/>
         <source>Address</source>
-        <translation>Osoite</translation>
+        <translation type="unfinished">Adresse</translation>
     </message>
     <message>
         <location filename="fixtureremap.ui" line="196"/>
         <source>Source Fixtures</source>
-        <translation></translation>
+        <translation type="unfinished">Kildeenhet</translation>
     </message>
     <message>
         <location filename="fixtureremap.ui" line="256"/>
         <source>Remap fixture names</source>
-        <translation></translation>
+        <translation type="unfinished">Oppdater enhetsnavn</translation>
     </message>
     <message>
         <location filename="fixtureremap.ui" line="268"/>
         <source>Destination project name:</source>
-        <translation></translation>
+        <translation type="unfinished">Nytt prosjektnavn:</translation>
     </message>
     <message>
         <location filename="fixtureremap.cpp" line="115"/>
         <location filename="fixtureremap.cpp" line="117"/>
         <source> (remapped)</source>
-        <translation></translation>
+        <translation type="unfinished"> (oppdatert)</translation>
     </message>
     <message>
         <location filename="fixtureremap.cpp" line="146"/>
         <source>Universe %1</source>
-        <translation></translation>
+        <translation type="unfinished">Univers %1</translation>
     </message>
     <message>
         <location filename="fixtureremap.cpp" line="210"/>
         <source>Generic Dimmer</source>
-        <translation>Yleinen himmennin</translation>
+        <translation type="unfinished">Generell Dimmer</translation>
     </message>
     <message>
         <location filename="fixtureremap.cpp" line="276"/>
         <source>Delete Fixtures</source>
-        <translation>Poista valaisimia</translation>
+        <translation type="unfinished">Fjern Enheter</translation>
     </message>
     <message>
         <location filename="fixtureremap.cpp" line="277"/>
         <source>Do you want to delete the selected items?</source>
-        <translation></translation>
+        <translation type="unfinished">Vil du fjerne de valgte enheter?</translation>
     </message>
     <message>
         <location filename="fixtureremap.cpp" line="325"/>
         <source>Invalid operation</source>
-        <translation></translation>
+        <translation type="unfinished">Ugyldig operasjon</translation>
     </message>
     <message>
         <location filename="fixtureremap.cpp" line="326"/>
         <source>You are trying to clone a fixture on an address already in use. Please fix the target list first.</source>
-        <translation></translation>
+        <translation type="unfinished">Kloning av enhet med adresse allerede i bruk. Vennligst oppdater mållisten først.</translation>
     </message>
     <message>
         <location filename="fixtureremap.cpp" line="387"/>
@@ -2448,29 +2448,29 @@ Varighet: %3
         <location filename="fixtureremap.cpp" line="426"/>
         <location filename="fixtureremap.cpp" line="516"/>
         <source>Invalid selection</source>
-        <translation></translation>
+        <translation type="unfinished">Ugyldig valg</translation>
     </message>
     <message>
         <location filename="fixtureremap.cpp" line="388"/>
         <location filename="fixtureremap.cpp" line="404"/>
         <location filename="fixtureremap.cpp" line="517"/>
         <source>Please select a source and a target fixture or channel to perform this operation.</source>
-        <translation></translation>
+        <translation type="unfinished">Vennligst velg en kilde- og en målenhet eller kanal for å utføre denne operasjonen.</translation>
     </message>
     <message>
         <location filename="fixtureremap.cpp" line="427"/>
         <source>To perform a fixture remap, please select fixtures on both lists.</source>
-        <translation></translation>
+        <translation type="unfinished">Vennligst velg enheter fra begge listene før  endringer kan utføres.</translation>
     </message>
     <message>
         <location filename="fixtureremap.cpp" line="641"/>
         <source>This might take a while...</source>
-        <translation></translation>
+        <translation type="unfinished">Dette kan ta en stund...</translation>
     </message>
     <message>
         <location filename="fixtureremap.cpp" line="641"/>
         <source>Cancel</source>
-        <translation></translation>
+        <translation type="unfinished">Avbryte</translation>
     </message>
 </context>
 <context>
