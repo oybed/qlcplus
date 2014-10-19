@@ -235,29 +235,34 @@
 <context>
     <name>DocBrowser</name>
     <message>
-        <location filename="../ui/src/docbrowser.cpp" line="103"/>
+        <location filename="../ui/src/docbrowser.cpp" line="104"/>
         <source>%1 - Document Browser</source>
         <translation>%1 - Handbuch</translation>
     </message>
     <message>
-        <location filename="../ui/src/docbrowser.cpp" line="114"/>
+        <location filename="../ui/src/docbrowser.cpp" line="120"/>
         <source>Backward</source>
         <translation>Zurück</translation>
     </message>
     <message>
-        <location filename="../ui/src/docbrowser.cpp" line="115"/>
+        <location filename="../ui/src/docbrowser.cpp" line="121"/>
         <source>Forward</source>
         <translation>Forwärts</translation>
     </message>
     <message>
-        <location filename="../ui/src/docbrowser.cpp" line="116"/>
+        <location filename="../ui/src/docbrowser.cpp" line="122"/>
         <source>Index</source>
         <translation>Inhaltsverzeichnis</translation>
     </message>
     <message>
-        <location filename="../ui/src/docbrowser.cpp" line="117"/>
+        <location filename="../ui/src/docbrowser.cpp" line="123"/>
         <source>About Qt</source>
         <translation>Über Qt</translation>
+    </message>
+    <message>
+        <location filename="../ui/src/docbrowser.cpp" line="151"/>
+        <source>Close</source>
+        <translation>Schließen</translation>
     </message>
 </context>
 <context>
@@ -942,7 +947,7 @@
     <message>
         <location filename="fixtureeditor.cpp" line="193"/>
         <source>Close</source>
-        <translation>Schliessen</translation>
+        <translation>Schließen</translation>
     </message>
     <message>
         <location filename="fixtureeditor.cpp" line="194"/>
@@ -951,7 +956,7 @@
 before closing?</source>
         <translation>Willst du die Änderungen am Gerät
 &quot;%1&quot;
-vor dem Schliessen speichern?</translation>
+vor dem Schließen speichern?</translation>
     </message>
     <message>
         <location filename="fixtureeditor.cpp" line="223"/>

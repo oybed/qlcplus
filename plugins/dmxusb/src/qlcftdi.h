@@ -41,6 +41,7 @@
 
 #if defined(LIBFTDI1)
   #include <unistd.h>
+  #include <libusb.h>
 #endif
 
 #define SETTINGS_TYPE_MAP "qlcftdi/typemap"
@@ -53,9 +54,11 @@ class QLCFTDI
      * Widget enumeration
      ************************************************************************/
 public:
-    static const int VID = 0x0403; //! FTDI Vendor ID
-    static const int PID = 0x6001; //! FTDI Product ID
-    static const int DMX4ALLPID = 0xC850; //! DMX4ALL Product ID
+    static const int FTDIVID = 0x0403;    //! FTDI Vendor ID
+    static const int ATMELVID = 0x03EB;   //! Atmel Vendor ID
+    static const int FTDIPID = 0x6001;    //! FTDI Product ID
+    static const int DMX4ALLPID = 0xC850; //! DMX4ALL FTDI Product ID
+    static const int NANODMXPID = 0x2018; //! DMX4ALL Nano DMX Product ID
 
 #if defined(FTD2XX)
     static QString readLabel(quint32 id, uchar label, int *ESTA_code);
@@ -124,8 +127,6 @@ private:
     QString m_name;
     QString m_vendor;
     quint32 m_id;
-    int m_refCount;
-    int m_openCount;
 
     /************************************************************************
      * FTDI Interface Methods
@@ -135,7 +136,7 @@ public:
     bool open();
 
     /** Open the widget using a specific Product ID */
-    bool openByPID(const int PID);
+    bool openByPID(const int FTDIPID);
 
     /** Close the widget */
     bool close();
@@ -172,12 +173,6 @@ public:
 
     /** Read exactly one byte. $ok tells if a byte was read or not. */
     uchar readByte(bool* ok = NULL);
-
-    /** Modify the reference count by 'amount'. Used when sharing a FTDI handle */
-    void modifyRefCount(int amount);
-
-    /** Returns the number of references this class is pointed by */
-    int refCount();
 
 private:
 #if defined(FTD2XX)

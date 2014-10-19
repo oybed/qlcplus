@@ -19,6 +19,7 @@
 
 #include <QDebug>
 #include <QProcess>
+#include <QSettings>
 
 #include "webaccess.h"
 
@@ -237,6 +238,26 @@ mg_result WebAccess::beginRequestHandler(mg_connection *conn)
                       post_size, postReply.data());
 
       return MG_TRUE;
+  }
+  else if (QString(conn->uri).endsWith(".png"))
+  {
+      QFile imgFile(QString(":%1").arg(QString(conn->uri)));
+      if (imgFile.open(QIODevice::ReadOnly))
+      {
+          QByteArray imgContent = imgFile.readAll();
+          qDebug() << "IMG file lenght:" << imgContent.length();
+          imgFile.close();
+          mg_printf(conn,
+                    "HTTP/1.1 200 OK\r\n"
+                    "Content-Type: image/png\r\n"
+                    "Content-Length: %d\r\n\r\n",
+                    imgContent.length());
+          mg_write(conn, imgContent.data(), imgContent.length());
+          mg_write(conn, "\r\n", 2);
+          return MG_TRUE;
+      }
+      else
+        qDebug() << "Failed to open file";
   }
   else if (QString(conn->uri) != "/")
       return MG_TRUE;
@@ -518,19 +539,23 @@ mg_result WebAccess::websocketDataHandler(mg_connection *conn)
             if (cmdList.count() < 4)
                 return MG_FALSE;
 
-            quint32 universeAddr = ((cmdList[2].toUInt() - 1) << 9);
+            quint32 universe = cmdList[2].toUInt() - 1;
             int startAddr = cmdList[3].toInt() - 1;
             int count = 1;
             if (cmdList.count() == 5)
                 count = cmdList[4].toInt();
-            for (int i = startAddr; i < startAddr + count; i++)
-            {
-                uchar value = m_sd->getAbsoluteChannelValue(universeAddr + i);
-                wsAPIMessage.append(QString("%1|%2|").arg(i + 1).arg(value));
-            }
-            // remove trailing separator
-            wsAPIMessage.truncate(wsAPIMessage.length() - 1);
+
+            wsAPIMessage.append(WebAccessSimpleDesk::getChannelsMessage(m_doc, m_sd, universe, startAddr, count));
         }
+        else if (apiCmd == "sdResetUniverse")
+        {
+            m_sd->resetUniverse();
+            wsAPIMessage = "QLC+API|getChannelsValues|";
+            wsAPIMessage.append(WebAccessSimpleDesk::getChannelsMessage(
+                                m_doc, m_sd, m_sd->getCurrentUniverseIndex(),
+                                0, m_sd->getSlidersNumber()));
+        }
+        //qDebug() << "Simple desk channels:" << wsAPIMessage;
 
         mg_websocket_write(conn, WEBSOCKET_OPCODE_TEXT, wsAPIMessage.toLatin1().data(), wsAPIMessage.length());
         return MG_TRUE;
@@ -597,6 +622,18 @@ mg_result WebAccess::websocketDataHandler(mg_connection *conn)
                     cue->playCueAtIndex(cmdList[2].toInt());
             }
             break;
+            case VCWidget::FrameWidget:
+            case VCWidget::SoloFrameWidget:
+            {
+                VCFrame *frame = qobject_cast<VCFrame*>(widget);
+                frame->blockSignals(true);
+                if (cmdList[1] == "NEXT_PG")
+                    frame->slotNextPage();
+                else if (cmdList[1] == "PREV_PG")
+                    frame->slotPreviousPage();
+                frame->blockSignals(false);
+            }
+            break;
             default:
             break;
         }
@@ -625,6 +662,16 @@ QString WebAccess::getWidgetHTML(VCWidget *widget)
     return str;
 }
 
+void WebAccess::slotFramePageChanged(int pageNum)
+{
+    VCWidget *frame = (VCWidget *)sender();
+
+    QString wsMessage = QString("%1|FRAME|%2").arg(frame->id()).arg(pageNum);
+    QByteArray ba = wsMessage.toLatin1();
+
+    mg_websocket_write(m_conn, WEBSOCKET_OPCODE_TEXT, ba.data(), ba.length());
+}
+
 QString WebAccess::getFrameHTML(VCFrame *frame)
 {
     QColor border(90, 90, 90);
@@ -634,10 +681,11 @@ QString WebAccess::getFrameHTML(VCFrame *frame)
            QString::number(frame->width()) +
           "px; height: " + QString::number(frame->height()) + "px; "
           "background-color: " + frame->backgroundColor().name() + "; "
-          "border-radius: 4px;\n"
           "border: 1px solid " + border.name() + ";\">\n";
     if (m_frameFound == false)
     {
+        if (m_soloFrameFound == false)
+            m_JScode += frame->getJS();
         m_CSScode += frame->getCSS();
         m_frameFound = true;
     }
@@ -645,9 +693,27 @@ QString WebAccess::getFrameHTML(VCFrame *frame)
     {
         str += "<div class=\"vcframeHeader\" style=\"color:" +
                 frame->foregroundColor().name() + "\">" + frame->caption() + "</div>\n";
+        if (frame->multipageMode())
+        {
+            str += "<div style=\"position: absolute; top: 0; right:0; z-index: 1;\">\n";
+            str += "<a class=\"vcframeButton\" href=\"javascript:framePreviousPage(";
+            str += QString::number(frame->id()) + ");\">";
+            str += "<img src=\"back.png\" width=27></img></a>\n";
+            str += "<div class=\"vcframePageLabel\" id=\"fr" + QString::number(frame->id()) + "Page\">";
+            str += QString ("%1 %2").arg(tr("Page")).arg(frame->currentPage() + 1) + "</div>\n";
+            str += "<a class=\"vcframeButton\" href=\"javascript:frameNextPage(";
+            str += QString::number(frame->id()) + ");\">";
+            str += "<img src=\"forward.png\" width=27></img></a>\n";
+            str += "</div>\n";
+
+            m_JScode += "framesCurrentPage[" + QString::number(frame->id()) + "] = " + QString::number(frame->currentPage()) + ";\n";
+            m_JScode += "framesTotalPages[" + QString::number(frame->id()) + "] = " + QString::number(frame->totalPagesNumber()) + ";\n\n";
+            connect(frame, SIGNAL(pageChanged(int)),
+                    this, SLOT(slotFramePageChanged(int)));
+        }
     }
 
-    str += getChildrenHTML(frame);
+    str += getChildrenHTML(frame, frame->totalPagesNumber(), frame->currentPage());
     str += "</div>\n";
 
     return str;
@@ -662,10 +728,11 @@ QString WebAccess::getSoloFrameHTML(VCSoloFrame *frame)
            QString::number(frame->width()) +
           "px; height: " + QString::number(frame->height()) + "px; "
           "background-color: " + frame->backgroundColor().name() + "; "
-          "border-radius: 4px;\n"
           "border: 1px solid " + border.name() + ";\">\n";
     if (m_soloFrameFound == false)
     {
+        if (m_frameFound == false)
+            m_JScode += frame->getJS();
         m_CSScode += frame->getCSS();
         m_soloFrameFound = true;
     }
@@ -673,9 +740,27 @@ QString WebAccess::getSoloFrameHTML(VCSoloFrame *frame)
     {
         str += "<div class=\"vcsoloframeHeader\" style=\"color:" +
                 frame->foregroundColor().name() + "\">" + frame->caption() + "</div>\n";
+        if (frame->multipageMode())
+        {
+            str += "<div style=\"position: absolute; top: 0; right:0; z-index: 1;\">\n";
+            str += "<a class=\"vcframeButton\" href=\"javascript:framePreviousPage(";
+            str += QString::number(frame->id()) + ");\">";
+            str += "<img src=\"back.png\" width=27></img></a>\n";
+            str += "<div class=\"vcframePageLabel\" id=\"fr" + QString::number(frame->id()) + "Page\">";
+            str += QString ("%1 %2").arg(tr("Page")).arg(frame->currentPage() + 1) + "</div>\n";
+            str += "<a class=\"vcframeButton\" href=\"javascript:frameNextPage(";
+            str += QString::number(frame->id()) + ");\">";
+            str += "<img src=\"forward.png\" width=27></img></a>\n";
+            str += "</div>\n";
+
+            m_JScode += "framesCurrentPage[" + QString::number(frame->id()) + "] = " + QString::number(frame->currentPage()) + ";\n";
+            m_JScode += "framesTotalPages[" + QString::number(frame->id()) + "] = " + QString::number(frame->totalPagesNumber()) + ";\n\n";
+            connect(frame, SIGNAL(pageChanged(int)),
+                    this, SLOT(slotFramePageChanged(int)));
+        }
     }
 
-    str += getChildrenHTML(frame);
+    str += getChildrenHTML(frame, frame->totalPagesNumber(), frame->currentPage());
     str += "</div>\n";
 
     return str;
@@ -853,9 +938,13 @@ QString WebAccess::getCueListHTML(VCCueList *cue)
             "px; height: " + QString::number(cue->height()) + "px; "
             "background-color: " + cue->backgroundColor().name() + ";\">\n";
 
-    str += "<div style=\"width: 100%; height: " + QString::number(cue->height() - 32) + "px; overflow: scroll;\" >\n";
+    str += "<div style=\"width: 100%; height: " + QString::number(cue->height() - 34) + "px; overflow: scroll;\" >\n";
     str += "<table class=\"hovertable\" style=\"width: 100%;\">\n";
-    str += "<tr><th>#</th><th>Name</th><th>Fade In</th><th>Fade Out</th><th>Duration</th><th>Notes</th></tr>\n";
+    str += "<tr><th>#</th><th>" + tr("Name") + "</th>";
+    str += "<th>" + tr("Fade In") + "</th>";
+    str += "<th>" + tr("Fade Out") + "</th>";
+    str += "<th>" + tr("Duration") + "</th>";
+    str += "<th>" + tr("Notes") + "</th></tr>\n";
     Chaser *chaser = cue->chaser();
     Doc *doc = m_vc->getDoc();
     if (chaser != NULL)
@@ -955,15 +1044,18 @@ QString WebAccess::getCueListHTML(VCCueList *cue)
     str += "</table>\n";
     str += "</div>\n";
 
-    str += "<a class=\"button button-blue\" style=\"height: 29px; font-size: 24px;\" "
-            "href=\"javascript:sendCueCmd(" + QString::number(cue->id()) + ", 'PLAY');\">\n"
-            "<span id=\"play" + QString::number(cue->id()) + "\">Play</span></a>\n";
-    str += "<a class=\"button button-blue\" style=\"height: 29px; font-size: 24px;\" "
-            "href=\"javascript:sendCueCmd(" + QString::number(cue->id()) + ", 'PREV');\">\n"
-            "<span>Previous</span></a>\n";
-    str += "<a class=\"button button-blue\" style=\"height: 29px; font-size: 24px;\" "
-            "href=\"javascript:sendCueCmd(" + QString::number(cue->id()) + ", 'NEXT');\">\n"
-            "<span>Next</span></a>\n";
+    str += "<a class=\"vccuelistButton\" id=\"play" + QString::number(cue->id()) + "\" ";
+    str += "href=\"javascript:sendCueCmd(" + QString::number(cue->id()) + ", 'PLAY');\">\n";
+    str += "<img src=\"player_play.png\" width=27></img></a>\n";
+
+    str += "<a class=\"vccuelistButton\" href=\"javascript:sendCueCmd(";
+    str += QString::number(cue->id()) + ", 'PREV');\">\n";
+    str += "<img src=\"back.png\" width=27></img></a>\n";
+
+    str += "<a class=\"vccuelistButton\" href=\"javascript:sendCueCmd(";
+    str += QString::number(cue->id()) + ", 'NEXT');\">\n";
+    str += "<img src=\"forward.png\" width=27></img></a>\n";
+
     str += "</div>\n";
 
     connect(cue, SIGNAL(stepChanged(int)),
@@ -972,12 +1064,22 @@ QString WebAccess::getCueListHTML(VCCueList *cue)
     return str;
 }
 
-QString WebAccess::getChildrenHTML(VCWidget *frame)
+QString WebAccess::getChildrenHTML(VCWidget *frame, int pagesNum, int currentPageIdx)
 {
     if (frame == NULL)
         return QString();
 
-    QString str;
+    QString unifiedHTML;
+    QStringList pagesHTML;
+    for (int i = 0; i < pagesNum; i++)
+    {
+        QString fpID = QString("fp%1_%2").arg(frame->id()).arg(i);
+        QString pg = "<div class=\"vcframePage\" id=\"" + fpID + "\"";
+        if (i == currentPageIdx)
+            pg += " style=\"visibility: visible;\"";
+        pg += ">\n";
+        pagesHTML << pg;
+    }
 
     QList<VCWidget *> chList = frame->findChildren<VCWidget*>();
 
@@ -985,39 +1087,64 @@ QString WebAccess::getChildrenHTML(VCWidget *frame)
 
     foreach (VCWidget *widget, chList)
     {
-        if (widget->parentWidget() != frame || widget->isVisible() == false)
+        if (widget->parentWidget() != frame)
             continue;
+
+        QString str;
+        bool restoreDisable = false;
+
+        if (pagesNum > 0 && widget->isEnabled() == false)
+        {
+            widget->setEnabled(true);
+            restoreDisable = true;
+        }
 
         switch (widget->type())
         {
             case VCWidget::FrameWidget:
-                str += getFrameHTML((VCFrame *)widget);
+                str = getFrameHTML((VCFrame *)widget);
             break;
             case VCWidget::SoloFrameWidget:
-                str += getSoloFrameHTML((VCSoloFrame *)widget);
+                str = getSoloFrameHTML((VCSoloFrame *)widget);
             break;
             case VCWidget::ButtonWidget:
-                str += getButtonHTML((VCButton *)widget);
+                str = getButtonHTML((VCButton *)widget);
             break;
             case VCWidget::SliderWidget:
-                str += getSliderHTML((VCSlider *)widget);
+                str = getSliderHTML((VCSlider *)widget);
             break;
             case VCWidget::LabelWidget:
-                str += getLabelHTML((VCLabel *)widget);
+                str = getLabelHTML((VCLabel *)widget);
             break;
             case VCWidget::AudioTriggersWidget:
-                str += getAudioTriggersHTML((VCAudioTriggers *)widget);
+                str = getAudioTriggersHTML((VCAudioTriggers *)widget);
             break;
             case VCWidget::CueListWidget:
-                str += getCueListHTML((VCCueList *)widget);
+                str = getCueListHTML((VCCueList *)widget);
             break;
             default:
-                str += getWidgetHTML(widget);
+                str = getWidgetHTML(widget);
             break;
         }
+        if (pagesNum > 0)
+        {
+            pagesHTML[widget->page()] += str;
+            if (restoreDisable)
+                widget->setEnabled(false);
+        }
+        else
+            unifiedHTML += str;
     }
 
-    return str;
+    if (pagesNum > 0)
+    {
+        for(int i = 0; i < pagesHTML.count(); i++)
+        {
+            unifiedHTML += pagesHTML.at(i);
+            unifiedHTML += "</div>\n";
+        }
+    }
+    return unifiedHTML;
 }
 
 QString WebAccess::getVCHTML()
@@ -1058,7 +1185,7 @@ QString WebAccess::getVCHTML()
             "px; height: " + QString::number(mfSize.height()) + "px; "
             "background-color: " + mainFrame->backgroundColor().name() + "; \" />\n";
 
-    widgetsHTML += getChildrenHTML(mainFrame);
+    widgetsHTML += getChildrenHTML(mainFrame, 0, 0);
 
     m_JScode += "\n</script>\n";
 

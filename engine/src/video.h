@@ -28,6 +28,10 @@
 class QDomDocument;
 class QVideoWidget;
 
+/** @addtogroup engine_functions Functions
+ * @{
+ */
+
 class Video : public Function
 {
     Q_OBJECT
@@ -72,33 +76,37 @@ public:
      *********************************************************************/
 public:
     /**
-     * Set the time where the Audio object is placed over a timeline
+     * Set the time where the Video object is placed over a timeline
      *
-     * @param time The start time in milliseconds of the Audio object
+     * @param time The start time in milliseconds of the Video object
      */
     void setStartTime(quint32 time);
 
     /**
-     * Returns the time where the Audio object is placed over a timeline
+     * Returns the time where the Video object is placed over a timeline
      *
-     * @return Start time in milliseconds of the Audio object
+     * @return Start time in milliseconds of the Video object
      */
     quint32 getStartTime() const;
 
     /**
-     * Returns the duration of the source audio file loaded
+     * Returns the duration of the source video file loaded
      *
-     * @return Duration in milliseconds of the source audio file
+     * @return Duration in milliseconds of the source video file
      */
-    qint64 getDuration();
+    qint64 totalDuration();
+
+    QSize getResolution();
+    QString getAudioCodec();
+    QString getVideoCodec();
 
     /**
-     * Set the color to be used by a AudioItem
+     * Set the color to be used by a VideoItem
      */
     void setColor(QColor color);
 
     /**
-     * Get the color of this Audio object
+     * Get the color of this Video object
      */
     QColor getColor();
 
@@ -143,6 +151,7 @@ public:
 protected slots:
     void slotStatusChanged(QMediaPlayer::MediaStatus status);
     void slotTotalTimeChanged(qint64 duration);
+    void slotMetaDataChanged(QString key, QVariant data);
 
 signals:
     void totalTimeChanged(qint64);
@@ -163,6 +172,8 @@ private:
     QString m_sourceFileName;
     /** Duration of the video content */
     qint64 m_videoDuration;
+    /** The video codec as strings */
+    QString m_audioCodec, m_videoCodec;
     /** Resolution of the video content */
     QSize m_resolution;
     /** Index of the screen where to render the video */
@@ -197,5 +208,7 @@ public:
     void postRun(MasterTimer* timer, QList<Universe *> universes);
 
 };
+
+/** @} */
 
 #endif

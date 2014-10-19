@@ -24,6 +24,8 @@
 #endif
 
 #include <QDomElement>
+#include <QSettings>
+#include <QDebug>
 
 #include "inputoutputmap.h"
 #include "qlcinputchannel.h"
@@ -357,17 +359,30 @@ bool InputOutputMap::setInputPatch(quint32 universe, const QString &pluginName,
         qWarning() << Q_FUNC_INFO << "Universe" << universe << "out of bounds.";
         return false;
     }
- 
+
     QMutexLocker locker(&m_universeMutex);
+    InputPatch *currInPatch = m_universeArray.at(universe)->inputPatch();
+    QLCInputProfile *currProfile = NULL;
+    if (currInPatch != NULL)
+        currProfile = currInPatch->profile();
+    InputPatch *ip = NULL;
+
     if (m_universeArray.at(universe)->setInputPatch(
                 doc()->ioPluginCache()->plugin(pluginName), input,
                 profile(profileName)) == true)
     {
-        InputPatch *ip = m_universeArray.at(universe)->inputPatch();
+        ip = m_universeArray.at(universe)->inputPatch();
         if (ip != NULL)
             connect(ip, SIGNAL(inputValueChanged(quint32,quint32,uchar,const QString&)),
                     this, SIGNAL(inputValueChanged(quint32,quint32,uchar,const QString&)));
     }
+    else
+    {
+        return false;
+    }
+
+    if (ip != NULL && currProfile != ip->profile())
+        emit profileChanged(universe, ip->profileName());
 
     return true;
 }
@@ -384,13 +399,13 @@ bool InputOutputMap::setOutputPatch(quint32 universe, const QString &pluginName,
 
     QMutexLocker locker(&m_universeMutex);
     if (isFeedback == false)
-        m_universeArray.at(universe)->setOutputPatch(
+        return m_universeArray.at(universe)->setOutputPatch(
                     doc()->ioPluginCache()->plugin(pluginName), output);
     else
-        m_universeArray.at(universe)->setFeedbackPatch(
+        return m_universeArray.at(universe)->setFeedbackPatch(
                     doc()->ioPluginCache()->plugin(pluginName), output);
 
-    return true;
+    return false;
 }
 
 InputPatch *InputOutputMap::inputPatch(quint32 universe) const
@@ -611,6 +626,7 @@ bool InputOutputMap::sendFeedBack(quint32 universe, quint32 channel, uchar value
 
 void InputOutputMap::slotPluginConfigurationChanged(QLCIOPlugin* plugin)
 {
+    bool success = false;
     for (quint32 i = 0; i < universes(); i++)
     {
         OutputPatch* op = m_universeArray.at(i)->outputPatch();
@@ -618,11 +634,19 @@ void InputOutputMap::slotPluginConfigurationChanged(QLCIOPlugin* plugin)
         if (op != NULL && op->plugin() == plugin)
         {
             QMutexLocker locker(&m_universeMutex);
-            op->reconnect();
+            success = op->reconnect();
+        }
+
+        InputPatch* ip = m_universeArray.at(i)->inputPatch();
+
+        if (ip != NULL && ip->plugin() == plugin)
+        {
+            QMutexLocker locker(&m_universeMutex);
+            success = ip->reconnect();
         }
     }
 
-    emit pluginConfigurationChanged(plugin->name());
+    emit pluginConfigurationChanged(plugin->name(), success);
 }
 
 /*****************************************************************************
@@ -715,16 +739,16 @@ bool InputOutputMap::removeProfile(const QString& name)
     return false;
 }
 
-bool InputOutputMap::inputSourceNames(const QLCInputSource& src,
+bool InputOutputMap::inputSourceNames(const QLCInputSource *src,
                                 QString& uniName, QString& chName) const
 {
-    if (src.isValid() == false)
+    if (src == NULL || src->isValid() == false)
         return false;
 
-    if (src.universe() >= universes())
+    if (src->universe() >= universes())
         return false;
 
-    InputPatch* pat = m_universeArray.at(src.universe())->inputPatch();
+    InputPatch* pat = m_universeArray.at(src->universe())->inputPatch();
     if (pat == NULL)
     {
         /* There is no patch for the given universe */
@@ -736,12 +760,12 @@ bool InputOutputMap::inputSourceNames(const QLCInputSource& src,
     {
         /* There is no profile. Display plugin name and channel number. */
         if (pat->plugin() != NULL)
-            uniName = QString("%1: %2").arg(src.universe() + 1).arg(pat->plugin()->name());
+            uniName = QString("%1: %2").arg(src->universe() + 1).arg(pat->plugin()->name());
         else
-            uniName = QString("%1: ??").arg(src.universe() + 1);
+            uniName = QString("%1: ??").arg(src->universe() + 1);
 
-        ushort page = src.page();
-        ushort channel = (src.channel() & 0x0000FFFF) + 1;
+        ushort page = src->page();
+        ushort channel = (src->channel() & 0x0000FFFF) + 1;
 
         if (page != 0)
             chName = QString("%1: ? (Page %2)").arg(channel).arg(page + 1);
@@ -754,12 +778,12 @@ bool InputOutputMap::inputSourceNames(const QLCInputSource& src,
         QString name;
 
         /* Display profile name for universe */
-        uniName = QString("%1: %2").arg(src.universe() + 1).arg(profile->name());
+        uniName = QString("%1: %2").arg(src->universe() + 1).arg(profile->name());
 
         /* User can input the channel number by hand, so put something
            rational to the channel name in those cases as well. */
-        ushort page = src.page();
-        ushort channel = (src.channel() & 0x0000FFFF);
+        ushort page = src->page();
+        ushort channel = (src->channel() & 0x0000FFFF);
 
         ich = profile->channel(channel);
         if (ich != NULL)

@@ -35,7 +35,7 @@ serialport {
     CONFIG(ftd2xx) {
         win32 {
             # Windows target
-            FTD2XXDIR    = C:/Qt/CDM20828
+            FTD2XXDIR    = C:/Qt/CDM21200
             LIBS        += -L$$FTD2XXDIR/i386 -lftd2xx
             INCLUDEPATH += $$FTD2XXDIR
             QMAKE_LFLAGS += -shared
@@ -57,7 +57,7 @@ serialport {
         } else {
             packagesExist(libftdi1) {
                 CONFIG      += link_pkgconfig
-                PKGCONFIG   += libftdi1 libusb
+                PKGCONFIG   += libftdi1 libusb-1.0
                 DEFINES     += LIBFTDI1
                 message(Building with libFTDI1 support.)
             } else {
@@ -73,26 +73,26 @@ HEADERS += dmxusb.h \
            dmxusbwidget.h \
            dmxusbconfig.h \
            enttecdmxusbpro.h \
-           enttecdmxusbprorx.h \
-           enttecdmxusbprotx.h \
            enttecdmxusbopen.h \
-           ultradmxusbprotx.h \
-           dmx4all.h \
+           stageprofi.h \
            vinceusbdmx512.h \
-           vinceusbdmx512tx.h \
            qlcftdi.h
+
+unix: HEADERS += nanodmx.h
 
 SOURCES += dmxusb.cpp \
            dmxusbwidget.cpp \
            dmxusbconfig.cpp \
            enttecdmxusbpro.cpp \
-           enttecdmxusbprorx.cpp \
-           enttecdmxusbprotx.cpp \
            enttecdmxusbopen.cpp \
-           dmx4all.cpp \
-           ultradmxusbprotx.cpp \
-           vinceusbdmx512.cpp \
-           vinceusbdmx512tx.cpp
+           stageprofi.cpp \
+           vinceusbdmx512.cpp
+
+INCLUDEPATH += ../../midi/common
+HEADERS += ../../midi/common/midiprotocol.h
+SOURCES += ../../midi/common/midiprotocol.cpp
+
+unix: SOURCES += nanodmx.cpp
 
 serialport {
     SOURCES += qlcftdi-qtserial.cpp

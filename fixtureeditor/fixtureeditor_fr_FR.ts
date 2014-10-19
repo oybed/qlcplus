@@ -213,7 +213,7 @@
     <message>
         <location filename="capabilitywizard.ui" line="94"/>
         <source>The common base name for all capabilities. Use hash &apos;#&apos; to create a running number.</source>
-        <translation>La base commune du nom pour toutes les fonctions (utilisez # pour créer un nombre incrémental)</translation>
+        <translation>La base commune du nom pour toutes les fonctions (utilisez # pour créer un nombre incrémental).</translation>
     </message>
     <message>
         <location filename="capabilitywizard.ui" line="97"/>
@@ -234,29 +234,34 @@
 <context>
     <name>DocBrowser</name>
     <message>
-        <location filename="../ui/src/docbrowser.cpp" line="103"/>
+        <location filename="../ui/src/docbrowser.cpp" line="104"/>
         <source>%1 - Document Browser</source>
         <translation>%1 - Explorateur de documents</translation>
     </message>
     <message>
-        <location filename="../ui/src/docbrowser.cpp" line="114"/>
+        <location filename="../ui/src/docbrowser.cpp" line="120"/>
         <source>Backward</source>
         <translation>Avant</translation>
     </message>
     <message>
-        <location filename="../ui/src/docbrowser.cpp" line="115"/>
+        <location filename="../ui/src/docbrowser.cpp" line="121"/>
         <source>Forward</source>
         <translation>Arrière</translation>
     </message>
     <message>
-        <location filename="../ui/src/docbrowser.cpp" line="116"/>
+        <location filename="../ui/src/docbrowser.cpp" line="122"/>
         <source>Index</source>
         <translation>Aide</translation>
     </message>
     <message>
-        <location filename="../ui/src/docbrowser.cpp" line="117"/>
+        <location filename="../ui/src/docbrowser.cpp" line="123"/>
         <source>About Qt</source>
         <translation>À propos de Qt</translation>
+    </message>
+    <message>
+        <location filename="../ui/src/docbrowser.cpp" line="151"/>
+        <source>Close</source>
+        <translation>Fermer</translation>
     </message>
 </context>
 <context>
@@ -930,7 +935,7 @@
     <message>
         <location filename="fixtureeditor.ui" line="551"/>
         <source>Open/close all mode items</source>
-        <translation type="unfinished">Déplier/Replier tous les modes</translation>
+        <translation>Déplier/Replier tous les modes</translation>
     </message>
 </context>
 <context>

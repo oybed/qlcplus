@@ -34,7 +34,7 @@ class MasterTimer;
 class ChaserRunner;
 class QDomDocument;
 
-/** @addtogroup engine Engine
+/** @addtogroup engine_functions Functions
  * @{
  */
 
@@ -143,8 +143,11 @@ public:
      */
     QList <ChaserStep> steps() const;
 
-    /** Get the Chaser duration in milliseconds */
-    quint32 getDuration();
+    /** Set the Chaser total duration in milliseconds */
+    void setTotalDuration(quint32 msec);
+
+    /** Get the Chaser total duration in milliseconds */
+    quint32 totalDuration();
 
 public slots:
     /**

@@ -29,6 +29,7 @@
 #include <QLineEdit>
 #include <QToolBar>
 #include <QLayout>
+#include <qmath.h>
 #include <QLabel>
 #include <QDebug>
 
@@ -129,7 +130,7 @@ void SceneEditor::slotFunctionManagerActive(bool active)
     else
     {
         if (m_speedDials != NULL)
-            delete m_speedDials;
+            m_speedDials->deleteLater();
         m_speedDials = NULL;
     }
 }
@@ -813,7 +814,7 @@ void SceneEditor::slotSpeedDialToggle(bool state)
     else
     {
         if (m_speedDials != NULL)
-            delete m_speedDials;
+            m_speedDials->deleteLater();
         m_speedDials = NULL;
     }
 

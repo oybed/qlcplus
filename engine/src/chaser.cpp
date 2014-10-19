@@ -229,13 +229,41 @@ QList <ChaserStep> Chaser::steps() const
     return m_steps;
 }
 
-quint32 Chaser::getDuration()
+void Chaser::setTotalDuration(quint32 msec)
 {
-    quint32 duration = 0;
-    foreach (ChaserStep step, m_steps)
-        duration += step.duration;
+    if (durationMode() == Chaser::Common)
+    {
+        setDuration(msec / m_steps.count());
+    }
+    else
+    {
+        // scale all the Chaser steps to resize
+        // to the desired duration
+        double dtDuration = (double)totalDuration();
+        for (int i = 0; i < m_steps.count(); i++)
+        {
+            uint origDuration = m_steps[i].duration;
+            m_steps[i].duration = ((double)m_steps[i].duration * msec) / dtDuration;
+            if(m_steps[i].hold)
+                m_steps[i].hold = ((double)m_steps[i].hold * (double)m_steps[i].duration) / (double)origDuration;
+            m_steps[i].fadeIn = m_steps[i].duration - m_steps[i].hold;
+            if (m_steps[i].fadeOut)
+                m_steps[i].fadeOut = ((double)m_steps[i].fadeOut * (double)m_steps[i].duration) / (double)origDuration;
+        }
+    }
+    emit changed(this->id());
+}
 
-    return duration;
+quint32 Chaser::totalDuration()
+{
+    quint32 totalDuration = 0;
+
+    foreach (ChaserStep step, m_steps)
+    {
+        totalDuration += step.duration;
+    }
+
+    return totalDuration;
 }
 
 void Chaser::slotFunctionRemoved(quint32 fid)
@@ -395,10 +423,6 @@ bool Chaser::saveXML(QDomDocument* doc, QDomElement* wksp_root)
     {
         QDomElement seq = doc->createElement(KXMLQLCChaserSequenceTag);
         seq.setAttribute(KXMLQLCChaserSequenceBoundScene, m_boundSceneID);
-        seq.setAttribute(KXMLQLCChaserSequenceStartTime, m_startTime);
-        seq.setAttribute(KXMLQLCChaserSequenceColor, m_color.name());
-        if (isLocked())
-            seq.setAttribute(KXMLQLCChaserSequenceLocked, m_locked);
         root.appendChild(seq);
     }
 

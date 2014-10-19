@@ -4,7 +4,7 @@
 
 APPNAME    = Q Light Controller Plus
 FXEDNAME   = Fixture Definition Editor
-APPVERSION = 4.7.4 GIT
+APPVERSION = 4.8.2 GIT
 
 #############################################################################
 # Compiler & linker configuration
@@ -18,8 +18,12 @@ CONFIG         += warn_on
 # Build everything in the order specified in .pro files
 CONFIG         += ordered
 
-CONFIG         -= release # Enable this when making a release
-CONFIG         += debug   # Disable this when making a release
+# Enable the following 2 lines when making a release
+CONFIG         -= release
+#DEFINES        += QT_NO_DEBUG_OUTPUT
+
+# Disable this when making a release
+CONFIG         += debug
 
 # Disable these if you don't want to see SVN revision in the About Box
 #unix:REVISION = $$system(svn info | grep "Revision" | sed 's/Revision://')
@@ -121,7 +125,7 @@ macx:USERFIXTUREDIR       = $$USERDATADIR/Fixtures
 # Plugins
 win32:PLUGINDIR      = Plugins
 unix:!macx:PLUGINDIR = $$LIBSDIR/qt4/plugins/qlcplus
-macx:PLUGINDIR       = Plugins
+macx:PLUGINDIR       = PlugIns
 
 # Translations
 win32:TRANSLATIONDIR      =

@@ -19,8 +19,10 @@
 
 #include <QFileDialog>
 #include <QLineEdit>
+#include <QSettings>
 #include <QLabel>
 #include <QDebug>
+#include <QUrl>
 
 #include "speeddialwidget.h"
 #include "audiodecoder.h"
@@ -79,7 +81,7 @@ AudioEditor::AudioEditor(QWidget* parent, Audio *audio, Doc* doc)
     if (adec != NULL)
     {
         AudioParameters ap = adec->audioParameters();
-        m_durationLabel->setText(Function::speedToString(m_audio->getDuration()));
+        m_durationLabel->setText(Function::speedToString(m_audio->totalDuration()));
         m_srateLabel->setText(QString("%1 Hz").arg(ap.sampleRate()));
         m_channelsLabel->setText(QString("%1").arg(ap.channels()));
         m_bitrateLabel->setText(QString("%1 kb/s").arg(adec->bitrate()));
@@ -188,7 +190,7 @@ void AudioEditor::slotSourceFileClicked()
     if (adec != NULL)
     {
         AudioParameters ap = adec->audioParameters();
-        m_durationLabel->setText(Function::speedToString(m_audio->getDuration()));
+        m_durationLabel->setText(Function::speedToString(m_audio->totalDuration()));
         m_srateLabel->setText(QString("%1 Hz").arg(ap.sampleRate()));
         m_channelsLabel->setText(QString("%1").arg(ap.channels()));
         m_bitrateLabel->setText(QString("%1 kb/s").arg(adec->bitrate()));
@@ -286,7 +288,7 @@ void AudioEditor::slotSpeedDialToggle(bool state)
     else
     {
         if (m_speedDials != NULL)
-            delete m_speedDials;
+            m_speedDials->deleteLater();
         m_speedDials = NULL;
     }
 }
