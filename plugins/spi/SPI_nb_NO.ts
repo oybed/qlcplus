@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="nl_NL">
+<TS version="2.0" language="nb_NO">
 <context>
     <name>SPIConfiguration</name>
     <message>
         <location filename="spiconfiguration.ui" line="14"/>
         <source>Configure SPI Plugin</source>
-        <translation>Konfigurere SPI Plugin</translation>
+        <translation>Konfigurasjon av SPI Plugin</translation>
     </message>
     <message>
         <location filename="spiconfiguration.ui" line="20"/>

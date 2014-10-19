@@ -2478,17 +2478,17 @@ Varighet: %3
     <message>
         <location filename="fixtureselection.ui" line="14"/>
         <source>Select fixture</source>
-        <translation>Valitse valaisin</translation>
+        <translation type="unfinished">Velg enhet</translation>
     </message>
     <message>
         <location filename="fixtureselection.cpp" line="73"/>
         <source>No fixtures available</source>
-        <translation>Ei valaisimia saatavilla</translation>
+        <translation type="unfinished">Ingen enheter tilgjengelig</translation>
     </message>
     <message>
         <location filename="fixtureselection.cpp" line="75"/>
         <source>Go to the Fixture Manager and add some fixtures first.</source>
-        <translation>Mene Laitehallintaan luodaksesi ensin valaisimia.</translation>
+        <translation type="unfinished">Bruk &quot;Fixture Manager&quot; for å legge til enheter først.</translation>
     </message>
 </context>
 <context>
