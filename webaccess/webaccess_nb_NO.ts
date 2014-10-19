@@ -26,7 +26,7 @@
     <message>
         <location filename="webaccess.cpp" line="621"/>
         <source>Widget not supported (yet) for web access</source>
-        <translation>Widget ikke støttet (enda) for nettleser adgang</translation>
+        <translation>Skjermelementet støttes ikke (enda) for nettleser adgang</translation>
     </message>
     <message>
         <location filename="webaccess.cpp" line="822"/>

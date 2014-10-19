@@ -28,7 +28,7 @@
     <message>
         <location filename="aboutbox.cpp" line="42"/>
         <source>Website: %1</source>
-        <translation type="unfinished">Nettside: %1</translation>
+        <translation>Nettside: %1</translation>
     </message>
 </context>
 <context>
@@ -41,7 +41,7 @@
     <message>
         <location filename="addchannelsgroup.ui" line="24"/>
         <source>Group Name</source>
-        <translation type="unfinished">Gruppenavn</translation>
+        <translation>Gruppenavn</translation>
     </message>
     <message>
         <location filename="addchannelsgroup.ui" line="48"/>
@@ -87,7 +87,7 @@
     <message>
         <location filename="addchannelsgroup.ui" line="119"/>
         <source>Choose an external input universe and channel that this group should listen to</source>
-        <translation type="unfinished">Velg en ekstern inngangsuniverset og kanal som denne gruppen skal lytte på</translation>
+        <translation>Velg ett eksternt inngangsunivers og kanal som denne gruppen skal lytte på</translation>
     </message>
     <message>
         <location filename="addchannelsgroup.ui" line="122"/>
@@ -102,7 +102,7 @@
     <message>
         <location filename="addchannelsgroup.ui" line="132"/>
         <source>Auto Detect</source>
-        <translation type="unfinished">Auto-oppdage</translation>
+        <translation>Auto-oppdage</translation>
     </message>
     <message>
         <location filename="addchannelsgroup.ui" line="142"/>
@@ -120,117 +120,117 @@
     <message>
         <location filename="addfixture.ui" line="14"/>
         <source>Add fixture</source>
-        <translation type="unfinished">Legg til enhet</translation>
+        <translation>Legg til enhet</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="234"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;ERROR: Address already used !&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;FEIL: Adressen er i bruk !&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;FEIL: Adressen er i bruk !&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="265"/>
         <source>Quick search:</source>
-        <translation type="unfinished">Søk:</translation>
+        <translation>Søk:</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="282"/>
         <source>Fixture Model</source>
-        <translation type="unfinished">Enhet Modeltype</translation>
+        <translation>Enhet Modeltype</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="78"/>
         <source>Fixture Properties</source>
-        <translation type="unfinished">Enhet Egenskaper</translation>
+        <translation>Enhet Egenskaper</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="84"/>
         <source>Name</source>
-        <translation type="unfinished">Navn</translation>
+        <translation>Navn</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="97"/>
         <source>A friendly name for the new fixture</source>
-        <translation type="unfinished">Kallenavn for den nye enheten</translation>
+        <translation>Kallenavn for den nye enheten</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="104"/>
         <source>Mode</source>
-        <translation type="unfinished">Modus</translation>
+        <translation>Modus</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="117"/>
         <source>Selected fixture mode</source>
-        <translation type="unfinished">Valgt enhet modus</translation>
+        <translation>Valgt enhet modus</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="148"/>
         <source>Address</source>
-        <translation type="unfinished">Adresse</translation>
+        <translation>Adresse</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="163"/>
         <source>The starting address of the (first) added fixture</source>
-        <translation type="unfinished">Startadresse for (den første) enheten</translation>
+        <translation>Startadresse for (første) lagt til enhet</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="180"/>
         <source>Address Tool</source>
-        <translation type="unfinished">Adresse verktøy</translation>
+        <translation>Adresseverktøy</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="189"/>
         <source>Channels</source>
-        <translation type="unfinished">Kanaler</translation>
+        <translation>Kanaler</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="205"/>
         <source>Number of channels in the selected fixture</source>
-        <translation type="unfinished">Antall kanaler for den valgte enheten</translation>
+        <translation>Antall kanaler for den valgte enheten</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="221"/>
         <source>List of channels in the selected fixture mode</source>
-        <translation type="unfinished">Kanalliste for den valgte enhetmodus</translation>
+        <translation>Kanalliste for den valgte enhetmodusen</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="131"/>
         <source>Universe</source>
-        <translation type="unfinished">Univers</translation>
+        <translation>Univers</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="20"/>
         <source>Multiple Fixtures</source>
-        <translation type="unfinished">Flere Enheter</translation>
+        <translation>Flere Enheter</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="26"/>
         <source>Quantity</source>
-        <translation type="unfinished">Antall</translation>
+        <translation>Antall</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="39"/>
         <source>Number of fixtures to add</source>
-        <translation type="unfinished">Antall enheter å legge til</translation>
+        <translation>Antall enheter å legge til</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="52"/>
         <source>Address gap</source>
-        <translation type="unfinished">Adresse gap</translation>
+        <translation>Adressegap</translation>
     </message>
     <message>
         <location filename="addfixture.ui" line="65"/>
         <source>Number of empty channels to leave between added fixtures</source>
-        <translation type="unfinished">Antall ubrukte kanaler mellom hver enheter</translation>
+        <translation>Antall ubrukte kanaler mellom hver lagt til enhet</translation>
     </message>
     <message>
         <location filename="addfixture.cpp" line="100"/>
         <source>Fixtures found: %1</source>
-        <translation type="unfinished">Eneter funnet: %1</translation>
+        <translation>Enheter funnet: %1</translation>
     </message>
     <message>
         <location filename="addfixture.cpp" line="617"/>
         <source>Dimmers</source>
-        <translation type="unfinished">Dimmere</translation>
+        <translation>Dimmere</translation>
     </message>
 </context>
 <context>
@@ -538,71 +538,71 @@
     <message>
         <location filename="app.cpp" line="290"/>
         <source>Cannot exit in Operate mode</source>
-        <translation>Ei voida sulkea Käyttötilassa</translation>
+        <translation type="unfinished">Kan ikke avslutte mens programmet er i &quot;Operate&quot; modus</translation>
     </message>
     <message>
         <location filename="app.cpp" line="291"/>
         <source>You must switch back to Design mode to close the application.</source>
-        <translation>Sinun täytyy vaihtaa takaisin Suunnittelu-tilaan sulkeaksesi sovelluksen.</translation>
+        <translation type="unfinished">Gå tilbake til &quot;Design&quot; modus for å avslutte programmet.</translation>
     </message>
     <message>
         <location filename="app.cpp" line="299"/>
         <source>Close</source>
-        <translation>Sulje</translation>
+        <translation type="unfinished">Lukk</translation>
     </message>
     <message>
         <location filename="app.cpp" line="300"/>
         <source>Do you wish to save the current workspace before closing the application?</source>
-        <translation>Haluatko tallentaa nykyisen työtilan ennen sovelluksen sulkemista?</translation>
+        <translation type="unfinished">Ønsker du å lagre det aktive arbeidsområdet før programmet avsluttes?</translation>
     </message>
     <message>
         <location filename="app.cpp" line="367"/>
         <source>Starting Q Light Controller Plus</source>
         <oldsource>Starting Q Light Controller</oldsource>
-        <translation>Käynnistetään Q Light Controller</translation>
+        <translation type="unfinished">Starter Q Light Controller Plus</translation>
     </message>
     <message>
         <location filename="app.cpp" line="427"/>
         <source> - New Workspace</source>
-        <translation> - Uusi työtila</translation>
+        <translation type="unfinished"> - Nytt Arbeidsområde</translation>
     </message>
     <message>
         <location filename="app.cpp" line="482"/>
         <source>Switch to Design Mode</source>
-        <translation>Vaihda Suunnittelutilaan</translation>
+        <translation type="unfinished">Gå til &quot;Design&quot; modus</translation>
     </message>
     <message>
         <location filename="app.cpp" line="483"/>
         <source>There are still running functions.
 Really stop them and switch back to Design mode?</source>
-        <translation>Joitain funktioita on vielä ajossa.
-Haluatko varmasti pysäyttää ne ja vaihtaa takaisin Suunnittelutilaan?</translation>
+        <translation type="unfinished">Funksjoner fortsatt aktive.
+Vil du fortsatt stoppe disse og gå tilbake til &quot;Design&quot; modus?</translation>
     </message>
     <message>
         <location filename="app.cpp" line="516"/>
         <source>Design</source>
-        <translation>Suunnittelu</translation>
+        <translation type="unfinished">Design</translation>
     </message>
     <message>
         <location filename="app.cpp" line="517"/>
         <source>Switch to design mode</source>
-        <translation>Vaihda Suunnittelutilaan</translation>
+        <translation type="unfinished">Bytte til &quot;Design&quot; modus</translation>
     </message>
     <message>
         <location filename="app.cpp" line="527"/>
         <source>Operate</source>
-        <translation>Käyttötila</translation>
+        <translation type="unfinished">Operate</translation>
     </message>
     <message>
         <location filename="app.cpp" line="528"/>
         <location filename="app.cpp" line="556"/>
         <source>Switch to operate mode</source>
-        <translation>Vaihda Käyttötilaan</translation>
+        <translation type="unfinished">Bytte til &quot;Operate&quot; modus</translation>
     </message>
     <message>
         <location filename="app.cpp" line="539"/>
         <source>&amp;New</source>
-        <translation>&amp;Uusi</translation>
+        <translation type="unfinished">&amp;Ny</translation>
     </message>
     <message>
         <location filename="app.cpp" line="540"/>
@@ -613,7 +613,7 @@ Haluatko varmasti pysäyttää ne ja vaihtaa takaisin Suunnittelutilaan?</transl
     <message>
         <location filename="app.cpp" line="543"/>
         <source>&amp;Open</source>
-        <translation>&amp;Avaa</translation>
+        <translation type="unfinished">&amp;Åpne</translation>
     </message>
     <message>
         <location filename="app.cpp" line="544"/>
@@ -624,7 +624,7 @@ Haluatko varmasti pysäyttää ne ja vaihtaa takaisin Suunnittelutilaan?</transl
     <message>
         <location filename="app.cpp" line="547"/>
         <source>&amp;Save</source>
-        <translation>&amp;Tallenna</translation>
+        <translation type="unfinished">&amp;Lagre</translation>
     </message>
     <message>
         <location filename="app.cpp" line="548"/>
@@ -635,22 +635,22 @@ Haluatko varmasti pysäyttää ne ja vaihtaa takaisin Suunnittelutilaan?</transl
     <message>
         <location filename="app.cpp" line="551"/>
         <source>Save &amp;As...</source>
-        <translation>Tallenna &amp;nimellä...</translation>
+        <translation type="unfinished">L&amp;agre Som...</translation>
     </message>
     <message>
         <location filename="app.cpp" line="555"/>
         <source>&amp;Operate</source>
-        <translation>&amp;Käyttötila</translation>
+        <translation type="unfinished">&amp;Operate</translation>
     </message>
     <message>
         <location filename="app.cpp" line="560"/>
         <source>&amp;Monitor</source>
-        <translation>&amp;Monitorointi</translation>
+        <translation type="unfinished">&amp;Monitor</translation>
     </message>
     <message>
         <location filename="app.cpp" line="567"/>
         <source>Toggle &amp;Blackout</source>
-        <translation>Kytke &amp;Pimennys</translation>
+        <translation type="unfinished">Toggle &amp;Blackout</translation>
     </message>
     <message>
         <location filename="app.cpp" line="557"/>
@@ -667,12 +667,12 @@ Haluatko varmasti pysäyttää ne ja vaihtaa takaisin Suunnittelutilaan?</transl
     <message>
         <location filename="app.cpp" line="572"/>
         <source>Live edit a function</source>
-        <translation></translation>
+        <translation type="unfinished">Endre en funksjon live</translation>
     </message>
     <message>
         <location filename="app.cpp" line="607"/>
         <source>Toggle Full Screen</source>
-        <translation>Kytke koko näyttö</translation>
+        <translation type="unfinished">Toggle Fullskjerm</translation>
     </message>
     <message>
         <location filename="app.cpp" line="609"/>
@@ -683,7 +683,7 @@ Haluatko varmasti pysäyttää ne ja vaihtaa takaisin Suunnittelutilaan?</transl
     <message>
         <location filename="app.cpp" line="613"/>
         <source>&amp;Index</source>
-        <translation>&amp;Hakemisto</translation>
+        <translation type="unfinished">&amp;Index</translation>
     </message>
     <message>
         <location filename="app.cpp" line="614"/>
@@ -695,62 +695,62 @@ Haluatko varmasti pysäyttää ne ja vaihtaa takaisin Suunnittelutilaan?</transl
         <location filename="app.cpp" line="617"/>
         <source>&amp;About QLC+</source>
         <oldsource>&amp;About QLC</oldsource>
-        <translation>Ti&amp;etoja QLC:stä</translation>
+        <translation type="unfinished">&amp;Om QLC+</translation>
     </message>
     <message>
         <location filename="app.cpp" line="222"/>
         <source>Fixtures</source>
-        <translation>Valaisimet</translation>
+        <translation type="unfinished">Enheter</translation>
     </message>
     <message>
         <location filename="app.cpp" line="224"/>
         <source>Functions</source>
-        <translation></translation>
+        <translation type="unfinished">Funksjoner</translation>
     </message>
     <message>
         <location filename="app.cpp" line="226"/>
         <source>Shows</source>
-        <translation></translation>
+        <translation type="unfinished">Show</translation>
     </message>
     <message>
         <location filename="app.cpp" line="228"/>
         <source>Virtual Console</source>
-        <translation>Virtuaalikonsoli</translation>
+        <translation type="unfinished">Virtuell Terminal</translation>
     </message>
     <message>
         <location filename="app.cpp" line="230"/>
         <source>Simple Desk</source>
-        <translation></translation>
+        <translation type="unfinished">Enkelt Skrivebord</translation>
     </message>
     <message>
         <location filename="app.cpp" line="232"/>
         <source>Inputs/Outputs</source>
-        <translation></translation>
+        <translation type="unfinished">Innganger/Utganger</translation>
     </message>
     <message>
         <location filename="app.cpp" line="324"/>
         <source>Close the application?</source>
-        <translation></translation>
+        <translation type="unfinished">Avslutte programmet?</translation>
     </message>
     <message>
         <location filename="app.cpp" line="325"/>
         <source>Do you wish to close the application?</source>
-        <translation></translation>
+        <translation type="unfinished">Vil du avslutte programmet?</translation>
     </message>
     <message>
         <location filename="app.cpp" line="463"/>
         <source>Exit</source>
-        <translation></translation>
+        <translation type="unfinished">Avslutt</translation>
     </message>
     <message>
         <location filename="app.cpp" line="564"/>
         <source>Address Tool</source>
-        <translation></translation>
+        <translation type="unfinished">Adresseverktøy</translation>
     </message>
     <message>
         <location filename="app.cpp" line="576"/>
         <source>Dump DMX values to a function</source>
-        <translation></translation>
+        <translation type="unfinished">Dump DMX verdier til en funksjon</translation>
     </message>
     <message>
         <location filename="app.cpp" line="577"/>
@@ -761,77 +761,77 @@ Haluatko varmasti pysäyttää ne ja vaihtaa takaisin Suunnittelutilaan?</transl
     <message>
         <location filename="app.cpp" line="580"/>
         <source>Stop ALL functions!</source>
-        <translation>Pysäytä KAIKKI funktiot!</translation>
+        <translation type="unfinished">Stopp alle funksjoner!</translation>
     </message>
     <message>
         <location filename="app.cpp" line="585"/>
         <source>Fade 1 second and stop</source>
-        <translation></translation>
+        <translation type="unfinished">Fade 1 sekund og stopp</translation>
     </message>
     <message>
         <location filename="app.cpp" line="590"/>
         <source>Fade 5 seconds and stop</source>
-        <translation></translation>
+        <translation type="unfinished">Fade 5 sekunder og stopp</translation>
     </message>
     <message>
         <location filename="app.cpp" line="595"/>
         <source>Fade 10 second and stop</source>
-        <translation></translation>
+        <translation type="unfinished">Fade 10 sekunder og stopp</translation>
     </message>
     <message>
         <location filename="app.cpp" line="600"/>
         <source>Fade 30 second and stop</source>
-        <translation></translation>
+        <translation type="unfinished">Fade 30 sekunder og stopp</translation>
     </message>
     <message>
         <location filename="app.cpp" line="623"/>
         <source>Workspace</source>
-        <translation>Työtila</translation>
+        <translation type="unfinished">Arbeidsområde</translation>
     </message>
     <message>
         <location filename="app.cpp" line="678"/>
         <source>Unable to read from file</source>
-        <translation>Tiedostoa ei voida lukea</translation>
+        <translation type="unfinished">Kan ikke lese fra fil</translation>
     </message>
     <message>
         <location filename="app.cpp" line="681"/>
         <source>Unable to write to file</source>
-        <translation>Tiedostoon ei voida kirjoittaa</translation>
+        <translation type="unfinished">Kan ikke skrive til fil</translation>
     </message>
     <message>
         <location filename="app.cpp" line="684"/>
         <source>A fatal error occurred</source>
-        <translation>Peruuttamaton virhe on tapahtunut</translation>
+        <translation type="unfinished">En uopprettelig feil oppstod</translation>
     </message>
     <message>
         <location filename="app.cpp" line="687"/>
         <source>Unable to access resource</source>
-        <translation>Resurssiin ei voida käsitellä</translation>
+        <translation type="unfinished">Har ikke tilgang til ressurs</translation>
     </message>
     <message>
         <location filename="app.cpp" line="690"/>
         <source>Unable to open file for reading or writing</source>
-        <translation>Tiedostoa ei voida avata lukemista tai kirjoittamista varten</translation>
+        <translation type="unfinished">Kan ikke åpne fil for lesing eller skriving</translation>
     </message>
     <message>
         <location filename="app.cpp" line="693"/>
         <source>Operation was aborted</source>
-        <translation>Toiminto peruutettiin</translation>
+        <translation type="unfinished">Operasjonen var avbrutt</translation>
     </message>
     <message>
         <location filename="app.cpp" line="696"/>
         <source>Operation timed out</source>
-        <translation>Toiminto aikakatkaistiin</translation>
+        <translation type="unfinished">Operasjonen tidsavbrutt</translation>
     </message>
     <message>
         <location filename="app.cpp" line="700"/>
         <source>An unspecified error has occurred. Nice.</source>
-        <translation>Määrittelemätön virhe on tapahtunut. Siistiä.</translation>
+        <translation type="unfinished">En uspesifisert feil oppstod. Flott.</translation>
     </message>
     <message>
         <location filename="app.cpp" line="704"/>
         <source>File error</source>
-        <translation>Tiedostovirhe</translation>
+        <translation type="unfinished">Feil med fil</translation>
     </message>
     <message>
         <location filename="app.cpp" line="766"/>
@@ -839,64 +839,65 @@ Haluatko varmasti pysäyttää ne ja vaihtaa takaisin Suunnittelutilaan?</transl
         <location filename="app.cpp" line="1090"/>
         <source>Do you wish to save the current workspace?
 Changes will be lost if you don&apos;t save them.</source>
-        <translation>Haluatko tallentaa nykyisen työtilan?
-Menetät muutokset jos et tallenna niitä.</translation>
+        <translation type="unfinished">Ønsker du å lagre det aktive arbeidsområdet?
+Endringer går tapt hvis du ikke lagrer.</translation>
     </message>
     <message>
         <location filename="app.cpp" line="768"/>
         <source>New Workspace</source>
-        <translation>Uusi työtila</translation>
+        <translation type="unfinished">Nytt Arbeidsområde</translation>
     </message>
     <message>
         <location filename="app.cpp" line="807"/>
         <location filename="app.cpp" line="828"/>
         <location filename="app.cpp" line="1092"/>
         <source>Open Workspace</source>
-        <translation>Avaa työtila</translation>
+        <translation type="unfinished">Åpne Arbeidsområde</translation>
     </message>
     <message>
         <location filename="app.cpp" line="836"/>
         <location filename="app.cpp" line="913"/>
         <source>Workspaces (*%1)</source>
-        <translation>Työtilat (*%1)</translation>
+        <translation type="unfinished">Arbeidsområde (*%1)</translation>
     </message>
     <message>
         <location filename="app.cpp" line="838"/>
         <location filename="app.cpp" line="915"/>
         <source>All Files (*.*)</source>
-        <translation>Kaikki tiedostot (*.*)</translation>
+        <translation type="unfinished">Alle Filer (*.*)</translation>
     </message>
     <message>
         <location filename="app.cpp" line="840"/>
         <location filename="app.cpp" line="917"/>
         <source>All Files (*)</source>
-        <translation>Kaikki tiedostot (*)</translation>
+        <translation type="unfinished">Alle Filer (*)</translation>
     </message>
     <message>
         <location filename="app.cpp" line="907"/>
         <source>Save Workspace As</source>
-        <translation>Tallenna työtila nimellä</translation>
+        <translation type="unfinished">Lagre Arbeidsområde Som</translation>
     </message>
     <message>
         <location filename="app.cpp" line="1081"/>
         <source>Error</source>
-        <translation></translation>
+        <translation type="unfinished">Feil</translation>
     </message>
     <message>
         <location filename="app.cpp" line="1082"/>
         <source>File not found !
 The selected file has been moved or deleted.</source>
-        <translation></translation>
+        <translation type="unfinished">Fil ikke funnet !
+Valgt fil flyttet eller fjernet.</translation>
     </message>
     <message>
         <location filename="app.cpp" line="1245"/>
         <source>Warning</source>
-        <translation></translation>
+        <translation type="unfinished">Advarsel</translation>
     </message>
     <message>
         <location filename="app.cpp" line="1246"/>
         <source>Some errors occurred while loading the project:</source>
-        <translation></translation>
+        <translation type="unfinished">En eller flere feil oppstod mens prosjektet lastet:</translation>
     </message>
 </context>
 <context>
@@ -904,27 +905,27 @@ The selected file has been moved or deleted.</source>
     <message>
         <location filename="assignhotkey.ui" line="14"/>
         <source>Assign a key combination to button</source>
-        <translation>Aseta napille näppäinyhdistelmä</translation>
+        <translation type="unfinished">Tilegne en tastekombinasjon for knapp</translation>
     </message>
     <message>
         <location filename="assignhotkey.ui" line="23"/>
         <source>Key combination</source>
-        <translation>Näppäinyhdistelmä</translation>
+        <translation type="unfinished">Tastekombinasjon</translation>
     </message>
     <message>
         <location filename="assignhotkey.ui" line="43"/>
         <source>Close automatically on key press</source>
-        <translation>Sulje automaattisesti näppäintä painettaessa</translation>
+        <translation type="unfinished">Auto-lukke ved taste trykk</translation>
     </message>
     <message>
         <location filename="assignhotkey.cpp" line="50"/>
         <source>Assign Key</source>
-        <translation>Aseta näppäin</translation>
+        <translation type="unfinished">Tilegne Tast</translation>
     </message>
     <message>
         <location filename="assignhotkey.cpp" line="51"/>
         <source>Hit the key combination that you wish to assign. You may hit either a single key or a combination using %1, %2, and %3.</source>
-        <translation></translation>
+        <translation type="unfinished">Trykk tastekombinasjonen som du ønsker å bruke. Bruk en enkel tast eller en kombinasjon av %1, %2, og %3.</translation>
     </message>
 </context>
 <context>
@@ -932,7 +933,7 @@ The selected file has been moved or deleted.</source>
     <message>
         <location filename="audioeditor.ui" line="14"/>
         <source>Audio editor</source>
-        <translation></translation>
+        <translation type="unfinished">Lydprogram</translation>
     </message>
     <message>
         <location filename="audioeditor.ui" line="136"/>
@@ -942,12 +943,12 @@ The selected file has been moved or deleted.</source>
     <message>
         <location filename="audioeditor.ui" line="122"/>
         <source>Duration:</source>
-        <translation></translation>
+        <translation type="unfinished">Varighet:</translation>
     </message>
     <message>
         <location filename="audioeditor.ui" line="101"/>
         <source>Audio name</source>
-        <translation></translation>
+        <translation type="unfinished">Lydnavn</translation>
     </message>
     <message>
         <location filename="audioeditor.ui" line="115"/>
@@ -962,52 +963,52 @@ The selected file has been moved or deleted.</source>
     <message>
         <location filename="audioeditor.ui" line="236"/>
         <source>Name of the function being edited</source>
-        <translation>Muokattavan funktion nimi</translation>
+        <translation type="unfinished">Navn på funksjonen som blir endret</translation>
     </message>
     <message>
         <location filename="audioeditor.ui" line="243"/>
         <source>Preview</source>
-        <translation></translation>
+        <translation type="unfinished">Forhåndsvisning</translation>
     </message>
     <message>
         <location filename="audioeditor.ui" line="129"/>
         <source>Channels:</source>
-        <translation></translation>
+        <translation type="unfinished">Kanaler:</translation>
     </message>
     <message>
         <location filename="audioeditor.ui" line="108"/>
         <source>File name:</source>
-        <translation></translation>
+        <translation type="unfinished">Filnavn:</translation>
     </message>
     <message>
         <location filename="audioeditor.ui" line="64"/>
         <source>Fade in:</source>
-        <translation></translation>
+        <translation type="unfinished">Fade inn:</translation>
     </message>
     <message>
         <location filename="audioeditor.ui" line="71"/>
         <source>Fade out:</source>
-        <translation></translation>
+        <translation type="unfinished">Fade ut:</translation>
     </message>
     <message>
         <location filename="audioeditor.cpp" line="98"/>
         <source>Open Audio File</source>
-        <translation></translation>
+        <translation type="unfinished">Åpne lydfil</translation>
     </message>
     <message>
         <location filename="audioeditor.cpp" line="106"/>
         <source>Audio Files (%1)</source>
-        <translation></translation>
+        <translation type="unfinished">Lydfiler (%1)</translation>
     </message>
     <message>
         <location filename="audioeditor.cpp" line="108"/>
         <source>All Files (*.*)</source>
-        <translation>Kaikki tiedostot (*.*)</translation>
+        <translation type="unfinished">Alle Filer (*.*)</translation>
     </message>
     <message>
         <location filename="audioeditor.cpp" line="110"/>
         <source>All Files (*)</source>
-        <translation>Kaikki tiedostot (*)</translation>
+        <translation type="unfinished">Alle Filer (*)</translation>
     </message>
 </context>
 <context>
@@ -1018,38 +1019,41 @@ The selected file has been moved or deleted.</source>
 Start time: %2
 Duration: %3
 %4</source>
-        <translation></translation>
+        <translation type="unfinished">Navn: %1
+Starttid: %2
+Varighet: %3
+%4</translation>
     </message>
     <message>
         <location filename="sceneitems.cpp" line="738"/>
         <source>Click to move this audio across the timeline</source>
-        <translation></translation>
+        <translation type="unfinished">Klikk for å flytte lyden bortover tidslinjen</translation>
     </message>
     <message>
         <location filename="sceneitems.cpp" line="753"/>
         <location filename="sceneitems.cpp" line="1130"/>
         <source>Preview Left Channel</source>
-        <translation></translation>
+        <translation type="unfinished">Forhåndsvisning Venstre Kanal</translation>
     </message>
     <message>
         <location filename="sceneitems.cpp" line="757"/>
         <source>Preview Right Channel</source>
-        <translation></translation>
+        <translation type="unfinished">Forhåndsvisning Høyre Kanal</translation>
     </message>
     <message>
         <location filename="sceneitems.cpp" line="761"/>
         <source>Preview Stereo Channels</source>
-        <translation></translation>
+        <translation type="unfinished">Forhåndsvisning Stereo Kanaler</translation>
     </message>
     <message>
         <location filename="sceneitems.cpp" line="766"/>
         <source>Align to cursor</source>
-        <translation></translation>
+        <translation type="unfinished">Tilpasse markør</translation>
     </message>
     <message>
         <location filename="sceneitems.cpp" line="1126"/>
         <source>Preview Mono</source>
-        <translation></translation>
+        <translation type="unfinished">Forhåndsvisning Mono</translation>
     </message>
 </context>
 <context>
@@ -1057,37 +1061,37 @@ Duration: %3
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="14"/>
         <source>Audio Triggers Configuration</source>
-        <translation></translation>
+        <translation type="unfinished">Lyd Utløsere Konfigurasjon</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="97"/>
         <source>Number of spectrum bars:</source>
-        <translation></translation>
+        <translation type="unfinished">Antall spektrumsstolper:</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="40"/>
         <source>Name</source>
-        <translation>Nimi</translation>
+        <translation type="unfinished">Navn</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="24"/>
         <source>Triggers</source>
-        <translation></translation>
+        <translation type="unfinished">Utløsere</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="32"/>
         <source>Widget name</source>
-        <translation></translation>
+        <translation type="unfinished">Skjermelement navn</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="45"/>
         <source>Type</source>
-        <translation>Tyyppi</translation>
+        <translation type="unfinished">Type</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="50"/>
         <source>Assign</source>
-        <translation></translation>
+        <translation type="unfinished">Tilegne</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="55"/>
@@ -1097,12 +1101,12 @@ Duration: %3
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="60"/>
         <source>Disable threshold</source>
-        <translation></translation>
+        <translation type="unfinished">Deaktiver grense</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="65"/>
         <source>Enable threshold</source>
-        <translation></translation>
+        <translation type="unfinished">Aktiver grense</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="70"/>
@@ -1112,82 +1116,82 @@ Duration: %3
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="113"/>
         <source>Input</source>
-        <translation>Sisääntulo</translation>
+        <translation type="unfinished">Inngang</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="119"/>
         <source>External Input</source>
-        <translation>Ulkoinen ohjaus</translation>
+        <translation type="unfinished">Ekstern Inngang</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="125"/>
         <source>Input Universe</source>
-        <translation>Sisääntulon universumi</translation>
+        <translation type="unfinished">Ingang Univers</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="132"/>
         <source>Input Channel</source>
-        <translation>Sisääntulokanava</translation>
+        <translation type="unfinished">Inngangskanal</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="139"/>
         <source>When toggled, you can click an external button to assign it to this widget.</source>
         <oldsource>When toggled, you can click an external button to assign it to this virtual console button.</oldsource>
-        <translation>Alaskytkettynä voit painaa ulkoista kontrollinappia kytkeäksesi sen tähän virtuaalinappiin.</translation>
+        <translation type="unfinished">Når påslått, kan du klikke en ekstern knapp for å tilegne den til denne skjermelementet.</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="142"/>
         <source>Auto Detect</source>
-        <translation>Automaattinen tunnistus</translation>
+        <translation type="unfinished">Automatisk Deteksjon</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="158"/>
         <source>The particular input channel within the input universe that sends data to this widget</source>
-        <translation></translation>
+        <translation type="unfinished">Den bestemte inngangskanalen i inngangsuniverset som sender data til dette skjermelementet</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="168"/>
         <source>The input universe that sends data to this widget</source>
-        <translation></translation>
+        <translation type="unfinished">Inngangsuniverset som sender data til dette skjermelementet</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="184"/>
         <source>Choose an external input universe &amp; channel that this widget should listen to.</source>
         <oldsource>Choose an external input universe &amp; channel that this button should listen to.</oldsource>
-        <translation>Valitse ulkoinen sisääntulouniversumi ja -kanava, jota tämä nappi kuuntelee.</translation>
+        <translation type="unfinished">Velg ett eksternt inngangsunivers &amp; kanal som dette skjermelementet skal lytte på.</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="187"/>
         <source>Choose...</source>
-        <translation>Valitse...</translation>
+        <translation type="unfinished">Velg...</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="210"/>
         <source>Key combination</source>
-        <translation>Näppäinyhdistelmä</translation>
+        <translation type="unfinished">Tastekombinasjon</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="225"/>
         <source>Keyboard combination that toggles this widget</source>
         <oldsource>Keyboard combination that toggles this button</oldsource>
-        <translation>Näppäinyhdistelmä, joka kytkee tämän napin päälle/pois</translation>
+        <translation type="unfinished">Tastatur kombinasjon som utløser dette skjermelementet</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="235"/>
         <source>Set a key combination for this widget</source>
         <oldsource>Set a key combination for this button</oldsource>
-        <translation>Aseta näppäinyhdistelmä tälle napille</translation>
+        <translation type="unfinished">Tilegne en tastekombinasjon for dette skjermelementet</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.ui" line="255"/>
         <source>Remove the widget&apos;s keyboard shortcut key</source>
         <oldsource>Remove the button&apos;s keyboard shortcut key</oldsource>
-        <translation>Poista näppäinyhdistelmä tästä napista</translation>
+        <translation type="unfinished">Fjern tilegnet hurtigtast fra skjermelement</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.cpp" line="126"/>
         <source>None</source>
-        <translation>Ei mitään</translation>
+        <translation type="unfinished">Ingen</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.cpp" line="127"/>
@@ -1197,37 +1201,37 @@ Duration: %3
     <message>
         <location filename="vcaudiotriggersproperties.cpp" line="128"/>
         <source>Function</source>
-        <translation>Funktio</translation>
+        <translation type="unfinished">Funksjon</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.cpp" line="129"/>
         <source>VC Widget</source>
-        <translation></translation>
+        <translation type="unfinished">VC Skjermelement</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.cpp" line="142"/>
         <source>%1 channels</source>
-        <translation></translation>
+        <translation type="unfinished">%1 kanaler</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.cpp" line="173"/>
         <source>No function</source>
-        <translation>Ei funktiota</translation>
+        <translation type="unfinished">Ingen funksjon</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.cpp" line="188"/>
         <source>No widget</source>
-        <translation></translation>
+        <translation type="unfinished">Ingen skjermelement</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.cpp" line="191"/>
         <source>Not assigned</source>
-        <translation></translation>
+        <translation type="unfinished">Ikke tilegnet</translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.cpp" line="243"/>
         <source>Volume Bar</source>
-        <translation></translation>
+        <translation type="unfinished">Volumsøyle </translation>
     </message>
     <message>
         <location filename="vcaudiotriggersproperties.cpp" line="252"/>
@@ -1241,49 +1245,49 @@ Duration: %3
         <location filename="channelsselection.ui" line="14"/>
         <source>Channels selection</source>
         <oldsource>Channels Fade Configuration</oldsource>
-        <translation></translation>
+        <translation type="unfinished">Kanalvalg</translation>
     </message>
     <message>
         <location filename="channelsselection.ui" line="28"/>
         <location filename="channelsselection.cpp" line="46"/>
         <source>Name</source>
-        <translation>Nimi</translation>
+        <translation type="unfinished">Navn</translation>
     </message>
     <message>
         <location filename="channelsselection.ui" line="33"/>
         <location filename="channelsselection.cpp" line="46"/>
         <source>Type</source>
-        <translation>Tyyppi</translation>
+        <translation type="unfinished">Type</translation>
     </message>
     <message>
         <location filename="channelsselection.ui" line="41"/>
         <source>Apply changes to fixtures of the same type</source>
-        <translation></translation>
+        <translation type="unfinished">Tilegne endringer til alle enheter av samme type</translation>
     </message>
     <message>
         <location filename="channelsselection.cpp" line="50"/>
         <source>Selected</source>
-        <translation></translation>
+        <translation type="unfinished">Valgt</translation>
     </message>
     <message>
         <location filename="channelsselection.cpp" line="54"/>
         <source>Channel properties configuration</source>
-        <translation></translation>
+        <translation type="unfinished">Konfigurasjon av kanalegenskaper</translation>
     </message>
     <message>
         <location filename="channelsselection.cpp" line="56"/>
         <source>Can fade</source>
-        <translation></translation>
+        <translation type="unfinished">Kan fade</translation>
     </message>
     <message>
         <location filename="channelsselection.cpp" line="56"/>
         <source>Behaviour</source>
-        <translation></translation>
+        <translation type="unfinished">Atferd</translation>
     </message>
     <message>
         <location filename="channelsselection.cpp" line="114"/>
         <source>Universe %1</source>
-        <translation></translation>
+        <translation type="unfinished">Univers %1</translation>
     </message>
 </context>
 <context>
@@ -1291,69 +1295,69 @@ Duration: %3
     <message>
         <location filename="chasereditor.ui" line="14"/>
         <source>Chaser editor</source>
-        <translation>Juoksutuksen muokkaus</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="117"/>
         <source>Chaser name</source>
-        <translation>Juoksutuksen nimi</translation>
+        <translation type="unfinished">Chaser navn</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="130"/>
         <source>Name of the chaser being edited</source>
-        <translation>Muokattavan juoksutus-funktion nimi</translation>
+        <translation type="unfinished">Navn for chaseren som endres</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="51"/>
         <source>Step</source>
-        <translation>Askel</translation>
+        <translation type="unfinished">Trinn</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="56"/>
         <source>Function</source>
-        <translation>Funktio</translation>
+        <translation type="unfinished">Funksjon</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="61"/>
         <location filename="chasereditor.cpp" line="890"/>
         <source>Fade In</source>
-        <translation></translation>
+        <translation type="unfinished">Fade Inn</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="71"/>
         <location filename="chasereditor.cpp" line="891"/>
         <source>Fade Out</source>
-        <translation></translation>
+        <translation type="unfinished">Fade Ut</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="76"/>
         <source>Duration</source>
-        <translation></translation>
+        <translation type="unfinished">Varighet</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="695"/>
         <source>Add step(s) to the current position</source>
-        <translation>Lisää askel(eita) valittuun kohtaan</translation>
+        <translation type="unfinished">Legge til trinn i nåværende posisjon</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="89"/>
         <source>Remove the selected step</source>
-        <translation>Poista valittu askel</translation>
+        <translation type="unfinished">Fjern det valgte trinnet</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="715"/>
         <source>Raise the selected step once</source>
-        <translation>Nosta valittua askelta kerran</translation>
+        <translation type="unfinished">Flytte det valgte trinnet oppover</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="486"/>
         <source>Lower the selected step once</source>
-        <translation>Laske valittua askelta kerran</translation>
+        <translation type="unfinished">Flytte det valgte trinnet nedover</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="528"/>
         <source>Show/Hide speed dial window</source>
-        <translation></translation>
+        <translation type="unfinished">Vis/Skule hastighetsbryter vindu</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="558"/>
@@ -1366,223 +1370,223 @@ Duration: %3
     <message>
         <location filename="chasereditor.ui" line="141"/>
         <source>Run Order</source>
-        <translation>Ajojärjestys</translation>
+        <translation type="unfinished">Rekkefølge</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="66"/>
         <location filename="chasereditor.cpp" line="892"/>
         <source>Hold</source>
-        <translation></translation>
+        <translation type="unfinished">Frys</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="81"/>
         <source>Notes</source>
-        <translation></translation>
+        <translation type="unfinished">Notater</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="159"/>
         <source>Run through over and over again</source>
-        <translation>Aja läpi uudelleen ja uudelleen</translation>
+        <translation type="unfinished">Utføre i loop</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="162"/>
         <source>Loop</source>
-        <translation>Silmukka</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="178"/>
         <source>Run through once and stop</source>
-        <translation>Aja läpi kerran ja pysäytä</translation>
+        <translation type="unfinished">Utføre en gang før stopp</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="181"/>
         <source>Single Shot</source>
-        <translation>Kertalaukaus</translation>
+        <translation type="unfinished">En Gang</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="194"/>
         <source>Switch direction at both ends</source>
-        <translation></translation>
+        <translation type="unfinished">Endre rettning ved hver ende</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="204"/>
         <source>Execute steps in random order</source>
-        <translation></translation>
+        <translation type="unfinished">Utføre trinnene i vilkårlig rekkefølge</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="207"/>
         <source>Random</source>
-        <translation></translation>
+        <translation type="unfinished">Vilkårlig</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="283"/>
         <source>Fade In Speed</source>
-        <translation></translation>
+        <translation type="unfinished">Fade Inn Hastighet</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="301"/>
         <source>All steps have common fade in speed set by the chaser</source>
-        <translation></translation>
+        <translation type="unfinished">Alle trinn bruker en felles fade inn hastighet satt i chaserdefinisjonen</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="304"/>
         <location filename="chasereditor.ui" line="370"/>
         <location filename="chasereditor.ui" line="439"/>
         <source>Common</source>
-        <translation></translation>
+        <translation type="unfinished">Felles</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="317"/>
         <source>Each step has its own fade in speed set by the chaser</source>
-        <translation></translation>
+        <translation type="unfinished">Hver trinn bruker en egen fade inn hastighet satt i chaserdefinisjonen</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="320"/>
         <location filename="chasereditor.ui" line="386"/>
         <location filename="chasereditor.ui" line="458"/>
         <source>Per Step</source>
-        <translation></translation>
+        <translation type="unfinished">Per Trinn</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="333"/>
         <source>Use each function&apos;s own fade in speed</source>
-        <translation></translation>
+        <translation type="unfinished">Bruk fade-in hastighet satt i hver funksjon</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="336"/>
         <location filename="chasereditor.ui" line="402"/>
         <source>Default</source>
-        <translation>Oletus</translation>
+        <translation type="unfinished">Standard</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="349"/>
         <source>Fade Out Speed</source>
-        <translation></translation>
+        <translation type="unfinished">Fade Ut Hastighet</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="367"/>
         <source>All steps have common fade out speed set by the chaser</source>
-        <translation></translation>
+        <translation type="unfinished">Alle trinn bruker en felles fade ut hastighet satt i chaserdefinisjonen</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="383"/>
         <source>Each step has its own fade out speed set by the chaser</source>
-        <translation></translation>
+        <translation type="unfinished">Hvert trinn bruker en egen fade ut hastighet satt i chaserdefinisjonen</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="399"/>
         <source>Use each function&apos;s own fade out speed</source>
-        <translation></translation>
+        <translation type="unfinished">Bruk fade-ut hastighet satt i hver funksjon</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="415"/>
         <source>Step Duration</source>
-        <translation></translation>
+        <translation type="unfinished">Trinnvarighet</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="436"/>
         <source>All steps have common step duration set by the chaser</source>
-        <translation></translation>
+        <translation type="unfinished">Alle trinn bruker en felles trinnvarighet satt i chaserdefinisjonen</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="455"/>
         <source>Each step has its own duration set by the chaser</source>
-        <translation></translation>
+        <translation type="unfinished">Hvert trinn bruker en egen varighet satt i chaserdefinisjonen</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="555"/>
         <source>See what the chaser does when it is run</source>
-        <translation></translation>
+        <translation type="unfinished">Se hva chaseren gjør når den er i bruk</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="575"/>
         <source>Stop the chaser if running</source>
-        <translation></translation>
+        <translation type="unfinished">Stopp chaseren hvis i bruk</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="615"/>
         <source>Skip to the next step</source>
-        <translation></translation>
+        <translation type="unfinished">Gå til det neste trinnet</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="595"/>
         <source>Skip to the previous step</source>
-        <translation></translation>
+        <translation type="unfinished">Gå til det forrige trinnet</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="197"/>
         <source>Ping Pong</source>
-        <translation>Edestakaisin</translation>
+        <translation type="unfinished">Ping Pong</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="217"/>
         <source>Direction</source>
-        <translation>Suunta</translation>
+        <translation type="unfinished">Retning</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="235"/>
         <source>Start from the first step</source>
-        <translation>Aloita ensimmäisestä askeleesta</translation>
+        <translation type="unfinished">Start fra første trinn</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="238"/>
         <source>Forward</source>
-        <translation>Etuperin</translation>
+        <translation type="unfinished">Framover</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="254"/>
         <source>Start from the last step</source>
-        <translation>Aloita viimeisestä askeleesta</translation>
+        <translation type="unfinished">Start fra siste trinn</translation>
     </message>
     <message>
         <location filename="chasereditor.ui" line="257"/>
         <source>Backward</source>
-        <translation>Takaperin</translation>
+        <translation type="unfinished">Bakover</translation>
     </message>
     <message>
         <location filename="chasereditor.cpp" line="71"/>
         <source>Cut</source>
-        <translation>Leikkaa</translation>
+        <translation type="unfinished">Kutt</translation>
     </message>
     <message>
         <location filename="chasereditor.cpp" line="76"/>
         <source>Copy</source>
-        <translation>Kopioi</translation>
+        <translation type="unfinished">Kopiere</translation>
     </message>
     <message>
         <location filename="chasereditor.cpp" line="81"/>
         <source>Paste</source>
-        <translation>Liitä</translation>
+        <translation type="unfinished">Lim-inn</translation>
     </message>
     <message>
         <location filename="chasereditor.cpp" line="656"/>
         <source>Paste error</source>
-        <translation></translation>
+        <translation type="unfinished">Lim-inn feil</translation>
     </message>
     <message>
         <location filename="chasereditor.cpp" line="656"/>
         <source>Trying to paste on an incompatible Scene. Operation cancelled.</source>
-        <translation></translation>
+        <translation type="unfinished">Prøver å lime inn en uforenlig scene. Operasjon avbrutt.</translation>
     </message>
     <message>
         <location filename="chasereditor.cpp" line="893"/>
         <source>Common Fade In</source>
-        <translation></translation>
+        <translation type="unfinished">Standard Fade Inn</translation>
     </message>
     <message>
         <location filename="chasereditor.cpp" line="894"/>
         <source>Common Fade Out</source>
-        <translation></translation>
+        <translation type="unfinished">Standard Fade Ut</translation>
     </message>
     <message>
         <location filename="chasereditor.cpp" line="895"/>
         <source>Common Hold</source>
-        <translation></translation>
+        <translation type="unfinished">Standard Frys</translation>
     </message>
     <message>
         <location filename="chasereditor.cpp" line="911"/>
         <source>Multiple Steps</source>
-        <translation></translation>
+        <translation type="unfinished">Mange Trinn</translation>
     </message>
 </context>
 <context>
@@ -1590,32 +1594,32 @@ Duration: %3
     <message>
         <location filename="collectioneditor.ui" line="14"/>
         <source>Collection editor</source>
-        <translation>Kokoelman muokkaus</translation>
+        <translation type="unfinished">Samling editor</translation>
     </message>
     <message>
         <location filename="collectioneditor.ui" line="26"/>
         <source>Collection name</source>
-        <translation>Kokoelman nimi</translation>
+        <translation type="unfinished">Samlingsnavn</translation>
     </message>
     <message>
         <location filename="collectioneditor.ui" line="33"/>
         <source>Name of the function being edited</source>
-        <translation>Muokattavan funktion nimi</translation>
+        <translation type="unfinished">Navn for funksjonen som endres</translation>
     </message>
     <message>
         <location filename="collectioneditor.ui" line="53"/>
         <source>Function</source>
-        <translation>Funktio</translation>
+        <translation type="unfinished">Funksjon</translation>
     </message>
     <message>
         <location filename="collectioneditor.ui" line="61"/>
         <source>Add function(s) to the collection</source>
-        <translation>Lisää funktioita kokoelmaan</translation>
+        <translation type="unfinished">Legg til funksjon(er) i samlingen</translation>
     </message>
     <message>
         <location filename="collectioneditor.ui" line="81"/>
         <source>Remove the selected function</source>
-        <translation>Poista valitut funktiot kokoelmasta</translation>
+        <translation type="unfinished">Fjern den valgte funksjonen</translation>
     </message>
 </context>
 <context>
@@ -1623,7 +1627,7 @@ Duration: %3
     <message>
         <location filename="consolechannel.cpp" line="159"/>
         <source>Intensity</source>
-        <translation>Intensiteetti</translation>
+        <translation type="unfinished">Intensitet</translation>
     </message>
 </context>
 <context>
@@ -1631,27 +1635,27 @@ Duration: %3
     <message>
         <location filename="createfixturegroup.ui" line="14"/>
         <source>Create Fixture Group</source>
-        <translation></translation>
+        <translation type="unfinished">Lag Enhetsgruppe</translation>
     </message>
     <message>
         <location filename="createfixturegroup.ui" line="20"/>
         <source>Group name</source>
-        <translation></translation>
+        <translation type="unfinished">Gruppenavn</translation>
     </message>
     <message>
         <location filename="createfixturegroup.ui" line="32"/>
         <source>Initial size</source>
-        <translation></translation>
+        <translation type="unfinished">Opprinnelig størrelse</translation>
     </message>
     <message>
         <location filename="createfixturegroup.ui" line="38"/>
         <source>Width</source>
-        <translation>Leveys</translation>
+        <translation type="unfinished">Bredde</translation>
     </message>
     <message>
         <location filename="createfixturegroup.ui" line="52"/>
         <source>Height</source>
-        <translation>Korkeus</translation>
+        <translation type="unfinished">Høyde</translation>
     </message>
 </context>
 <context>
@@ -1659,27 +1663,27 @@ Duration: %3
     <message>
         <location filename="cuestackmodel.cpp" line="142"/>
         <source>Number</source>
-        <translation>Numero</translation>
+        <translation type="unfinished">Nummer</translation>
     </message>
     <message>
         <location filename="cuestackmodel.cpp" line="144"/>
         <source>Fade In</source>
-        <translation></translation>
+        <translation type="unfinished">Fade Inn</translation>
     </message>
     <message>
         <location filename="cuestackmodel.cpp" line="146"/>
         <source>Fade Out</source>
-        <translation></translation>
+        <translation type="unfinished">Fade Ut</translation>
     </message>
     <message>
         <location filename="cuestackmodel.cpp" line="148"/>
         <source>Duration</source>
-        <translation></translation>
+        <translation type="unfinished">Varighet</translation>
     </message>
     <message>
         <location filename="cuestackmodel.cpp" line="150"/>
         <source>Cue</source>
-        <translation></translation>
+        <translation type="unfinished">Signal</translation>
     </message>
 </context>
 <context>
@@ -1687,33 +1691,33 @@ Duration: %3
     <message>
         <location filename="dmxdumpfactory.ui" line="14"/>
         <source>Dump DMX values</source>
-        <translation></translation>
+        <translation type="unfinished">Dump DMX verdier</translation>
     </message>
     <message>
         <location filename="dmxdumpfactory.ui" line="24"/>
         <source>Dump only non-zero values</source>
-        <translation></translation>
+        <translation type="unfinished">Dump bare verdier som ikke er null</translation>
     </message>
     <message>
         <location filename="dmxdumpfactory.ui" line="55"/>
         <source>Dump options</source>
-        <translation></translation>
+        <translation type="unfinished">Dump alternativer</translation>
     </message>
     <message>
         <location filename="dmxdumpfactory.ui" line="138"/>
         <source>Dump selected channels</source>
         <oldsource>Dump selected DMX values</oldsource>
-        <translation></translation>
+        <translation type="unfinished">Dump valgte kanaler</translation>
     </message>
     <message>
         <location filename="dmxdumpfactory.ui" line="82"/>
         <source>Add to:</source>
-        <translation></translation>
+        <translation type="unfinished">Legg til i:</translation>
     </message>
     <message>
         <location filename="dmxdumpfactory.ui" line="65"/>
         <source>Name</source>
-        <translation>Nimi</translation>
+        <translation type="unfinished">Navn</translation>
     </message>
     <message>
         <location filename="dmxdumpfactory.ui" line="89"/>
@@ -1723,28 +1727,28 @@ Duration: %3
     <message>
         <location filename="dmxdumpfactory.ui" line="99"/>
         <source>Button</source>
-        <translation></translation>
+        <translation type="unfinished">Knapp</translation>
     </message>
     <message>
         <location filename="dmxdumpfactory.ui" line="106"/>
         <source>Slider</source>
-        <translation></translation>
+        <translation type="unfinished">Gilder</translation>
     </message>
     <message>
         <location filename="dmxdumpfactory.ui" line="43"/>
         <source>Scene name:</source>
-        <translation></translation>
+        <translation type="unfinished">Scenenavn:</translation>
     </message>
     <message>
         <location filename="dmxdumpfactory.cpp" line="71"/>
         <source>Dump all channels (%1 Universes, %2 Fixtures, %3 Channels)</source>
         <oldsource>Dump all DMX values (%1 Universes, %2 Fixtures, %3 Channels)</oldsource>
-        <translation></translation>
+        <translation type="unfinished">Dump alle kanaler (%1 Universer, %2 Enheter, %3 Kanaler)</translation>
     </message>
     <message>
         <location filename="dmxdumpfactory.cpp" line="74"/>
         <source>New Scene From Live %1</source>
-        <translation></translation>
+        <translation type="unfinished">Ny Scene Fra Live %1</translation>
     </message>
 </context>
 <context>
@@ -1752,27 +1756,27 @@ Duration: %3
     <message>
         <location filename="docbrowser.cpp" line="103"/>
         <source>%1 - Document Browser</source>
-        <translation>%1 - ohjeiden selaus</translation>
+        <translation type="unfinished">%1 - Dokument Utforsker</translation>
     </message>
     <message>
         <location filename="docbrowser.cpp" line="114"/>
         <source>Backward</source>
-        <translation>Takaisin</translation>
+        <translation type="unfinished">Bakover</translation>
     </message>
     <message>
         <location filename="docbrowser.cpp" line="115"/>
         <source>Forward</source>
-        <translation>Eteen</translation>
+        <translation type="unfinished">Framover</translation>
     </message>
     <message>
         <location filename="docbrowser.cpp" line="116"/>
         <source>Index</source>
-        <translation>Hakemisto</translation>
+        <translation type="unfinished">Index</translation>
     </message>
     <message>
         <location filename="docbrowser.cpp" line="117"/>
         <source>About Qt</source>
-        <translation></translation>
+        <translation type="unfinished">Om Qt</translation>
     </message>
 </context>
 <context>
@@ -1780,153 +1784,153 @@ Duration: %3
     <message>
         <location filename="efxeditor.ui" line="14"/>
         <source>EFX Editor</source>
-        <translation>EFX muokkaus</translation>
+        <translation type="unfinished">EFX Editor</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="40"/>
         <source>General</source>
-        <translation>Yleinen</translation>
+        <translation type="unfinished">Generelt</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="675"/>
         <source>EFX name</source>
-        <translation>EFX nimi</translation>
+        <translation type="unfinished">EFX navn</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="682"/>
         <source>The name of the function being edited</source>
-        <translation>Muokattavan funktion nimi</translation>
+        <translation type="unfinished">Navnet på funksjonen som blir endret</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="201"/>
         <source>Step</source>
-        <translation>Askel</translation>
+        <translation type="unfinished">Trinn</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="206"/>
         <source>Fixture</source>
-        <translation>Valaisin</translation>
+        <translation type="unfinished">Enhet</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="211"/>
         <source>Reverse</source>
-        <translation>Käänteinen</translation>
+        <translation type="unfinished">Revers</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="127"/>
         <source>Fixture order</source>
-        <translation>Valaisinten järjestys</translation>
+        <translation type="unfinished">Enhet rekkefølge</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="133"/>
         <source>All fixtures move in parallel</source>
-        <translation>Kaikki valaisimet liikkuvat yhtäaikaa</translation>
+        <translation type="unfinished">Alle enheter går i parallell</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="136"/>
         <source>Parallel</source>
-        <translation>Rinnakkain</translation>
+        <translation type="unfinished">Parallell</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="146"/>
         <source>The pattern propagates to each fixture in a sequential order</source>
-        <translation>Kuvio leviää vähitellen kaikkiin valaisimiin järjestyksessä</translation>
+        <translation type="unfinished">Mønsteret fordeles til hver enhet i en sekvensiell rekkefølge</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="149"/>
         <source>Serial</source>
-        <translation>Sarjassa</translation>
+        <translation type="unfinished">Serie</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="230"/>
         <source>Movement</source>
-        <translation>Liike</translation>
+        <translation type="unfinished">Bevegelse</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="221"/>
         <source>Intensity</source>
-        <translation>Intensiteetti</translation>
+        <translation type="unfinished">Intensitet</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="216"/>
         <location filename="efxeditor.ui" line="514"/>
         <source>Start Offset</source>
-        <translation></translation>
+        <translation type="unfinished">Start Offset</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="156"/>
         <source>Each fixture starts moving immediately with an offset</source>
-        <translation>Jokainen valaisin alkaa liikkua yhtäaikaisesti, hieman toisistaan erillään</translation>
+        <translation type="unfinished">Hver enhet starter forflyttingen umiddelbart med en offset</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="159"/>
         <source>Asymmetric</source>
-        <translation>Epäsymmetrinen</translation>
+        <translation type="unfinished">Asymmetrisk</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="258"/>
         <source>Pattern</source>
-        <translation>Kuvio</translation>
+        <translation type="unfinished">Mønster</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="264"/>
         <source>Pattern for moving the mirror/head</source>
-        <translation>Kuvio, jonka mukaan peiliä/sankaa liikutetaan</translation>
+        <translation type="unfinished">Mønster for speil/hode bevegelse</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="274"/>
         <source>Parameters</source>
-        <translation>Parametrit</translation>
+        <translation type="unfinished">Parametere</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="303"/>
         <source>Width</source>
-        <translation>Leveys</translation>
+        <translation type="unfinished">Bredde</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="310"/>
         <source>Value width of the pattern</source>
-        <translation>Kuvion leveys</translation>
+        <translation type="unfinished">Breddeverdi av mønsteret</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="323"/>
         <source>Height</source>
-        <translation>Korkeus</translation>
+        <translation type="unfinished">Høyde</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="330"/>
         <source>Value height of the pattern</source>
-        <translation>Kuvion korkeus</translation>
+        <translation type="unfinished">Høydeverdi av mønsteret</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="343"/>
         <source>X offset</source>
-        <translation>X-poikkeutus</translation>
+        <translation type="unfinished">X-offset</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="350"/>
         <source>Pattern&apos;s center point on the X axis</source>
-        <translation>Kuvion keskuspiste X-akselilla</translation>
+        <translation type="unfinished">Senterpunkt for mønsteret på X aksen</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="363"/>
         <source>Y offset</source>
-        <translation>Y-poikkeutus</translation>
+        <translation type="unfinished">Y offset</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="370"/>
         <source>Pattern&apos;s center point on the Y axis</source>
-        <translation>Kuvion keskuspiste Y-akselilla</translation>
+        <translation type="unfinished">Senterpunkt for mønsteret på Y aksen</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="383"/>
         <source>Rotation</source>
-        <translation>Kääntö</translation>
+        <translation type="unfinished">Rotasjon</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="390"/>
         <source>Rotation of the pattern&apos;s starting point</source>
-        <translation>Kuvion aloituspisteen kääntö</translation>
+        <translation type="unfinished">Rotasjon av mønsterets utgangspunkt</translation>
     </message>
     <message utf8="true">
         <location filename="efxeditor.ui" line="393"/>
@@ -1937,42 +1941,42 @@ Duration: %3
     <message>
         <location filename="efxeditor.ui" line="406"/>
         <source>X frequency</source>
-        <translation>X-taajuus</translation>
+        <translation type="unfinished">X-frekvens</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="416"/>
         <source>Lissajous pattern&apos;s X frequency</source>
-        <translation>Lissajous-kuvion X-taajuus</translation>
+        <translation type="unfinished">Lissajous-mønsterets X frekvens</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="432"/>
         <source>Y frequency</source>
-        <translation>Y-taajuus</translation>
+        <translation type="unfinished">Y-frekvens</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="442"/>
         <source>Lissajous pattern&apos;s Y frequency</source>
-        <translation>Lissajous-kuvion Y-taajuus</translation>
+        <translation type="unfinished">Lissajous-mønsterets Y frekvens</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="458"/>
         <source>X phase</source>
-        <translation>X-vaihe</translation>
+        <translation type="unfinished">X fase</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="481"/>
         <source>Lissajous pattern&apos;s X phase</source>
-        <translation>Lissajous-kuvion X-vaihe</translation>
+        <translation type="unfinished">Lissajous-mønsterets X fase</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="497"/>
         <source>Y phase</source>
-        <translation>Y-vaihe</translation>
+        <translation type="unfinished">Y fase</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="646"/>
         <source>Show/Hide speed dial window</source>
-        <translation></translation>
+        <translation type="unfinished">Vis/Skule hastighetsbryter vindu</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="649"/>
@@ -1982,92 +1986,92 @@ Duration: %3
     <message>
         <location filename="efxeditor.ui" line="283"/>
         <source>Lissajous pattern&apos;s Y phase</source>
-        <translation>Lissajous-kuvion Y-vaihe</translation>
+        <translation type="unfinished">Lissajous-mønsterets Y fase</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="524"/>
         <source>Relative</source>
-        <translation></translation>
+        <translation type="unfinished">Relative</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="534"/>
         <source>Direction</source>
-        <translation>Suunta</translation>
+        <translation type="unfinished">Retning</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="540"/>
         <source>Run the pattern forwards</source>
-        <translation>Aja kuviota eteenpäin</translation>
+        <translation type="unfinished">Utføre mønsteret framover</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="543"/>
         <source>Forward</source>
-        <translation>Etuperin</translation>
+        <translation type="unfinished">Framover</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="553"/>
         <source>Run the pattern backwards</source>
-        <translation>Aja kuviota takaperin</translation>
+        <translation type="unfinished">Utføre mønsteret bakover</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="556"/>
         <source>Backward</source>
-        <translation>Takaperin</translation>
+        <translation type="unfinished">Bakover</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="582"/>
         <source>Run order</source>
-        <translation>Ajojärjestys</translation>
+        <translation type="unfinished">Rekkefølge</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="588"/>
         <source>Run through over and over again</source>
-        <translation>Aja jatkuvasti alusta loppuun</translation>
+        <translation type="unfinished">Utføre i loop</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="591"/>
         <source>Loop</source>
-        <translation>Silmukka</translation>
+        <translation type="unfinished">Loop</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="601"/>
         <source>Run through once and stop</source>
-        <translation>Aja läpi kerran ja lopeta</translation>
+        <translation type="unfinished">Utføre en gang før stopp</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="604"/>
         <source>Single shot</source>
-        <translation>Kertalaukaus</translation>
+        <translation type="unfinished">En Gang</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="611"/>
         <source>First run forwards, then backwards, again forwards, etc...</source>
-        <translation>Aja ensin alusta loppuun, sitten lopusta alkuun, alusta loppuun, jne...</translation>
+        <translation type="unfinished">Utføre framover først, så bakover, igjen framover, osv...</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="614"/>
         <source>Ping pong</source>
-        <translation>Edestakaisin</translation>
+        <translation type="unfinished">Ping pong</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="20"/>
         <source>See what the EFX does when it is run</source>
-        <translation></translation>
+        <translation type="unfinished">Se hva EFXen gjør når den er i bruk</translation>
     </message>
     <message>
         <location filename="efxeditor.ui" line="23"/>
         <source>&amp;Test Run</source>
-        <translation></translation>
+        <translation type="unfinished">&amp;Test</translation>
     </message>
     <message>
         <location filename="efxeditor.cpp" line="712"/>
         <source>Remove fixtures</source>
-        <translation>Poista valaisimia</translation>
+        <translation type="unfinished">Fjern enheter</translation>
     </message>
     <message>
         <location filename="efxeditor.cpp" line="713"/>
         <source>Do you want to remove the selected fixture(s)?</source>
-        <translation>Haluatko poistaa valitut valaisimet?</translation>
+        <translation type="unfinished">Vil du fjerne valgte enhet(er)?</translation>
     </message>
 </context>
 <context>
@@ -2075,17 +2079,17 @@ Duration: %3
     <message>
         <location filename="fixturegroupeditor.ui" line="14"/>
         <source>Fixture Group</source>
-        <translation></translation>
+        <translation>Enhetsgruppe</translation>
     </message>
     <message>
         <location filename="fixturegroupeditor.ui" line="167"/>
         <source>Fixture group name</source>
-        <translation></translation>
+        <translation>Enhetsgruppenavn</translation>
     </message>
     <message>
         <location filename="fixturegroupeditor.ui" line="39"/>
         <source>Remove selected fixture/head</source>
-        <translation></translation>
+        <translation>Fjern den valgte enheten</translation>
     </message>
     <message>
         <location filename="fixturegroupeditor.ui" line="42"/>
@@ -2097,7 +2101,7 @@ Duration: %3
     <message>
         <location filename="fixturegroupeditor.ui" line="72"/>
         <source>Width</source>
-        <translation>Leveys</translation>
+        <translation>Bredde</translation>
     </message>
     <message>
         <location filename="fixturegroupeditor.ui" line="79"/>
@@ -2108,17 +2112,17 @@ Duration: %3
     <message>
         <location filename="fixturegroupeditor.ui" line="89"/>
         <source>Height</source>
-        <translation>Korkeus</translation>
+        <translation>Høyde</translation>
     </message>
     <message>
         <location filename="fixturegroupeditor.ui" line="119"/>
         <source>Add/replace fixtures to current row, starting from selected cell</source>
-        <translation></translation>
+        <translation type="unfinished">Legg til/erstatte enheter i nåværende rad, utgangspunkt i valgt celle</translation>
     </message>
     <message>
         <location filename="fixturegroupeditor.ui" line="139"/>
         <source>Add/replace fixtures to current column, starting from selected cell</source>
-        <translation></translation>
+        <translation type="unfinished">Legg til/erstatte enheter i nåværende kolonne, utgangspunkt i valgt celle</translation>
     </message>
 </context>
 <context>
@@ -2126,217 +2130,217 @@ Duration: %3
     <message>
         <location filename="fixturemanager.cpp" line="345"/>
         <source>Fixtures Groups</source>
-        <translation></translation>
+        <translation type="unfinished">Enheter Grupper</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="349"/>
         <source>Channels</source>
-        <translation></translation>
+        <translation type="unfinished">Kanaler</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="362"/>
         <source>Channels Groups</source>
-        <translation></translation>
+        <translation type="unfinished">Kanal Grupper</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="555"/>
         <source>All fixtures</source>
-        <translation></translation>
+        <translation type="unfinished">Alle enheter</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="555"/>
         <source>This group contains all fixtures.</source>
-        <translation></translation>
+        <translation type="unfinished">Denne gruppen inneholder alle enheter.</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="567"/>
         <source>&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;Multiple fixtures selected&lt;/H1&gt;&lt;P&gt;Click &lt;IMG SRC=&quot;:/edit_remove.png&quot;&gt; to remove the selected fixtures.&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</source>
-        <translation>&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;Useita valaisimia valittuna&lt;/H1&gt;&lt;P&gt;Klikkaa &lt;IMG SRC=&quot;:/edit_remove.png&quot;&gt; poistaaksesi valitut valaisimet.&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</translation>
+        <translation type="unfinished">&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;Flere enheter valgt&lt;/H1&gt;&lt;P&gt;Klikk &lt;IMG SRC=&quot;:/edit_remove.png&quot;&gt; for å fjerne valgt enheter.&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="573"/>
         <source>&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;Multiple fixtures selected&lt;/H1&gt;&lt;P&gt;Fixture list modification is not permitted in operate mode.&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</source>
-        <translation>&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;Useita valaisimia valittuna&lt;/H1&gt;&lt;P&gt;Valaisinlistan muokkaus käyttötilassa ei ole sallittua.&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</translation>
+        <translation type="unfinished">&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;Flere enheter valgt&lt;/H1&gt;&lt;P&gt;Endringer i listen med enheter er ikke tillatt i operasjon modus.&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="582"/>
         <source>&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;No fixtures&lt;/H1&gt;&lt;P&gt;Click &lt;IMG SRC=&quot;:/edit_add.png&quot;&gt; to add fixtures.&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</source>
-        <translation>&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;Ei valaisimia&lt;/H1&gt;&lt;P&gt;Klikkaa &lt;IMG SRC=&quot;:/edit_add.png&quot;&gt; lisätäksesi valaisimia.&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</translation>
+        <translation type="unfinished">&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;Ingen Enheter&lt;/H1&gt;&lt;P&gt;Klikk &lt;IMG SRC=&quot;:/edit_add.png&quot;&gt; for å legge til enheter.&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="588"/>
         <source>&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;Nothing selected&lt;/H1&gt;&lt;P&gt;Select a fixture from the list or click &lt;IMG SRC=&quot;:/edit_add.png&quot;&gt; to add fixtures.&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</source>
-        <translation>&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;Ei valintaa&lt;/H1&gt;&lt;P&gt;Valitse valaisin listasta tai klikkaa &lt;IMG SRC=&quot;:/edit_add.png&quot;&gt; lisätäksesi valaisimia.&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</translation>
+        <translation type="unfinished">&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;Ingenting valgt&lt;/H1&gt;&lt;P&gt;Velg en enhet fra listen eller klikk &lt;IMG SRC=&quot;:/edit_add.png&quot;&gt; for å legge til enheter.&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="640"/>
         <source>&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;Multiple groups selected&lt;/H1&gt;&lt;P&gt;Click &lt;IMG SRC=&quot;:/edit_remove.png&quot;&gt; to remove the selected groups.&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</source>
-        <translation></translation>
+        <translation type="unfinished">&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;Flere grupper valgt&lt;/H1&gt;&lt;P&gt;Klikk &lt;IMG SRC=&quot;:/edit_remove.png&quot;&gt; for å fjerne valgt grupper.&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="648"/>
         <source>&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;Nothing selected&lt;/H1&gt;&lt;P&gt;Select a channel group from the list or click &lt;IMG SRC=&quot;:/edit_add.png&quot;&gt; to add a new channels group.&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</source>
-        <translation></translation>
+        <translation type="unfinished">&lt;HTML&gt;&lt;BODY&gt;&lt;H1&gt;Ingenting valgt&lt;/H1&gt;&lt;P&gt;Velg en kanalgruppe fra listen eller klikk &lt;IMG SRC=&quot;:/edit_add.png&quot;&gt; for å legge til en ny kanalgruppe.&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="673"/>
         <source>Add group...</source>
-        <translation></translation>
+        <translation type="unfinished">Legg til gruppe...</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="679"/>
         <location filename="fixturemanager.cpp" line="787"/>
         <location filename="fixturemanager.cpp" line="792"/>
         <source>Add fixture...</source>
-        <translation>Lisää valaisin...</translation>
+        <translation type="unfinished">Legg til enhet...</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="797"/>
         <source>Delete items</source>
-        <translation></translation>
+        <translation type="unfinished">Fjern enheter</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="802"/>
         <source>Properties...</source>
-        <translation></translation>
+        <translation type="unfinished">Egenskaper...</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="807"/>
         <source>Channels Fade Configuration...</source>
-        <translation></translation>
+        <translation type="unfinished">Kanaler Fade Konfigurasjon...</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="813"/>
         <source>Add fixture to group...</source>
-        <translation></translation>
+        <translation type="unfinished">Legg til enhet til gruppe...</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="816"/>
         <source>Remove fixture from group</source>
-        <translation></translation>
+        <translation type="unfinished">Fjern enhet fra gruppe</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="820"/>
         <source>New Group...</source>
-        <translation></translation>
+        <translation type="unfinished">Ny Gruppe...</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="823"/>
         <source>Move group up...</source>
-        <translation></translation>
+        <translation type="unfinished">Flytt gruppe opp...</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="829"/>
         <source>Move group down...</source>
-        <translation></translation>
+        <translation type="unfinished">Flytt gruppe ned...</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="835"/>
         <source>Import fixtures...</source>
-        <translation></translation>
+        <translation type="unfinished">Importer enheter...</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="840"/>
         <source>Export fixtures...</source>
-        <translation></translation>
+        <translation type="unfinished">Eksporter enheter...</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="846"/>
         <source>Remap fixtures...</source>
-        <translation></translation>
+        <translation type="unfinished">Tilegne enheter...</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="1060"/>
         <source>%1 - Row %2</source>
-        <translation></translation>
+        <translation type="unfinished">%1 - Rad %2</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="1123"/>
         <source>Do you want to delete the selected items?</source>
-        <translation></translation>
+        <translation type="unfinished">Vil du fjerne valgte enheter?</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="1168"/>
         <source>Delete Channels Group</source>
-        <translation></translation>
+        <translation type="unfinished">Fjern Kanalgruppe</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="1271"/>
         <source>Error</source>
-        <translation></translation>
+        <translation type="unfinished">Feil</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="1272"/>
         <source>Please enter a valid address</source>
-        <translation></translation>
+        <translation type="unfinished">Angi en gyldig adresse</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="1348"/>
         <source>Ungroup fixtures?</source>
-        <translation></translation>
+        <translation type="unfinished">Oppløse gruppen med enheter?</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="1349"/>
         <source>Do you want to ungroup the selected fixtures?</source>
-        <translation></translation>
+        <translation type="unfinished">Vil du oppløse gruppen med valgte enheter?</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="1464"/>
         <source>Import Fixtures List</source>
         <oldsource>Import Fixture Definition</oldsource>
-        <translation></translation>
+        <translation type="unfinished">Importer Enhetsliste</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="1469"/>
         <source>Export Fixtures List As</source>
         <oldsource>Export Fixture Definition As</oldsource>
-        <translation></translation>
+        <translation type="unfinished">Eksporter Enhetslisten Som</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="1475"/>
         <source>Fixtures List (*%1)</source>
         <oldsource>Fixture Definitions (*%1)</oldsource>
-        <translation></translation>
+        <translation type="unfinished">Enhetsliste (*%1)</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="1477"/>
         <source>All Files (*.*)</source>
-        <translation>Kaikki tiedostot (*.*)</translation>
+        <translation type="unfinished">Alle Filer (*.*)</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="1479"/>
         <source>All Files (*)</source>
-        <translation>Kaikki tiedostot (*)</translation>
+        <translation type="unfinished">Alle Filer (*)</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="879"/>
         <source>Fixture manager</source>
-        <translation>Valaisinten hallinta</translation>
+        <translation type="unfinished">Enhetsadministrator</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="947"/>
         <source>Generic Dimmer</source>
-        <translation>Yleinen himmennin</translation>
+        <translation type="unfinished">Generell Dimmer</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="1122"/>
         <source>Delete Fixtures</source>
-        <translation>Poista valaisimia</translation>
+        <translation type="unfinished">Fjern Enheter</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="1169"/>
         <source>Do you want to delete the selected groups?</source>
-        <translation></translation>
+        <translation type="unfinished">Vil du fjerne den valgte gruppen?</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="1234"/>
         <source>Change fixture properties</source>
-        <translation>Muokkaa valaisimen ominaisuuksia</translation>
+        <translation type="unfinished">Endre enhetsegenskaper</translation>
     </message>
     <message>
         <location filename="fixturemanager.cpp" line="349"/>
         <source>Name</source>
-        <translation>Nimi</translation>
+        <translation type="unfinished">Navn</translation>
     </message>
 </context>
 <context>
