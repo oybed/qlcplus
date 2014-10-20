@@ -2496,48 +2496,48 @@ Varighet: %3
     <message>
         <location filename="fixturetreewidget.cpp" line="70"/>
         <source>Name</source>
-        <translation>Nimi</translation>
+        <translation type="unfinished">Navn</translation>
     </message>
     <message>
         <location filename="fixturetreewidget.cpp" line="75"/>
         <source>Universe</source>
-        <translation>Universumi</translation>
+        <translation type="unfinished">Univers</translation>
     </message>
     <message>
         <location filename="fixturetreewidget.cpp" line="80"/>
         <source>Address</source>
-        <translation>Osoite</translation>
+        <translation type="unfinished">Adresse</translation>
     </message>
     <message>
         <location filename="fixturetreewidget.cpp" line="85"/>
         <source>Type</source>
-        <translation>Tyyppi</translation>
+        <translation type="unfinished">Type</translation>
     </message>
     <message>
         <location filename="fixturetreewidget.cpp" line="90"/>
         <source>Heads</source>
-        <translation></translation>
+        <translation type="unfinished">Hoder</translation>
     </message>
     <message>
         <location filename="fixturetreewidget.cpp" line="95"/>
         <source>Manufacturer</source>
-        <translation>Valmistaja</translation>
+        <translation type="unfinished">Produsent</translation>
     </message>
     <message>
         <location filename="fixturetreewidget.cpp" line="100"/>
         <source>Model</source>
-        <translation>Malli</translation>
+        <translation type="unfinished">Modell</translation>
     </message>
     <message>
         <location filename="fixturetreewidget.cpp" line="208"/>
         <location filename="fixturetreewidget.cpp" line="216"/>
         <source>Generic</source>
-        <translation>Yleinen</translation>
+        <translation type="unfinished">Generell</translation>
     </message>
     <message>
         <location filename="fixturetreewidget.cpp" line="228"/>
         <source>Head</source>
-        <translation></translation>
+        <translation type="unfinished">Hode</translation>
     </message>
 </context>
 <context>
@@ -2545,7 +2545,7 @@ Varighet: %3
     <message>
         <location filename="functionliveeditdialog.cpp" line="43"/>
         <source>Function Live Edit</source>
-        <translation></translation>
+        <translation type="unfinished">Funksjon Live Endring</translation>
     </message>
 </context>
 <context>
@@ -2553,195 +2553,195 @@ Varighet: %3
     <message>
         <location filename="functionmanager.cpp" line="238"/>
         <source>New &amp;scene</source>
-        <translation>Uusi &amp;tilanne</translation>
+        <translation type="unfinished">Ny &amp;scene</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="244"/>
         <source>New c&amp;haser</source>
-        <translation>Uusi &amp;juoksutus</translation>
+        <translation type="unfinished">Ny &amp;chaser</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="250"/>
         <source>New se&amp;quence</source>
-        <translation></translation>
+        <translation type="unfinished">Ny se&amp;quence</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="257"/>
         <source>New c&amp;ollection</source>
-        <translation>Uusi &amp;kokoelma</translation>
+        <translation type="unfinished">Ny &amp;samling</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="263"/>
         <source>New E&amp;FX</source>
-        <translation>Uusi &amp;EFX</translation>
+        <translation type="unfinished">Nyi &amp;EFX</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="269"/>
         <source>New &amp;RGB Matrix</source>
-        <translation></translation>
+        <translation type="unfinished">Ny &amp;RGB matrise</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="275"/>
         <source>New scrip&amp;t</source>
-        <translation></translation>
+        <translation type="unfinished">Ny scrip&amp;t</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="366"/>
         <source>New Scene</source>
-        <translation>Uusi tilanne</translation>
+        <translation type="unfinished">Ny Scene</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="379"/>
         <source>New Chaser</source>
-        <translation>Uusi juoksutus</translation>
+        <translation type="unfinished">Ny Chaser</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="402"/>
         <source>New Sequence</source>
-        <translation></translation>
+        <translation type="unfinished">Ny Sequence</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="312"/>
         <source>&amp;Clone</source>
-        <translation>K&amp;loonaa</translation>
+        <translation type="unfinished">&amp;Klone</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="281"/>
         <source>New au&amp;dio</source>
-        <translation></translation>
+        <translation type="unfinished">Ny au&amp;dio</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="288"/>
         <source>New vid&amp;eo</source>
-        <translation></translation>
+        <translation type="unfinished">Ny vid&amp;eo</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="294"/>
         <source>New fo&amp;lder</source>
-        <translation></translation>
+        <translation type="unfinished">Ny ma&amp;ppe</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="300"/>
         <source>Select Startup Function</source>
-        <translation></translation>
+        <translation type="unfinished">Velg Oppstartsfunksjon</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="305"/>
         <source>Function &amp;Wizard</source>
-        <translation></translation>
+        <translation type="unfinished">Funksjon&amp;veiviser</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="318"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Poista</translation>
+        <translation type="unfinished">&amp;Fjern</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="324"/>
         <source>Select &amp;all</source>
-        <translation>Valitse k&amp;aikki</translation>
+        <translation type="unfinished">Velg a&amp;lle</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="415"/>
         <source>New Collection</source>
-        <translation></translation>
+        <translation type="unfinished">Ny Samling</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="428"/>
         <source>New EFX</source>
-        <translation></translation>
+        <translation type="unfinished">Ny EFX</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="441"/>
         <source>New RGB Matrix</source>
-        <translation></translation>
+        <translation type="unfinished">Ny RGB Matrise</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="454"/>
         <source>New Script</source>
-        <translation></translation>
+        <translation type="unfinished">Ny Script</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="466"/>
         <source>Open Audio File</source>
-        <translation></translation>
+        <translation type="unfinished">Åpne Lydfil</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="474"/>
         <source>Audio Files (%1)</source>
-        <translation></translation>
+        <translation type="unfinished">Lydfiler (%1)</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="476"/>
         <location filename="functionmanager.cpp" line="529"/>
         <source>All Files (*.*)</source>
-        <translation>Kaikki tiedostot (*.*)</translation>
+        <translation type="unfinished">Alle Filer (*.*)</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="478"/>
         <location filename="functionmanager.cpp" line="531"/>
         <source>All Files (*)</source>
-        <translation>Kaikki tiedostot (*)</translation>
+        <translation type="unfinished">Alle Filer (*)</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="500"/>
         <source>Unsupported audio file</source>
-        <translation></translation>
+        <translation type="unfinished">Støtter ikke lydfilen</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="500"/>
         <source>This audio file cannot be played with QLC+. Sorry.</source>
-        <translation></translation>
+        <translation type="unfinished">QLC+ støtter ikke denne lydfilen. Beklager.</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="519"/>
         <source>Open Video File</source>
-        <translation></translation>
+        <translation type="unfinished">Åpne Videofil</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="527"/>
         <source>Video Files (%1)</source>
-        <translation></translation>
+        <translation type="unfinished">Videofiler (%1)</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="553"/>
         <source>Unsupported video file</source>
-        <translation></translation>
+        <translation type="unfinished">Støtter ikke videofilen</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="553"/>
         <source>This video file cannot be played with QLC+. Sorry.</source>
-        <translation></translation>
+        <translation type="unfinished">QLC+ støtter ikke denne videofilen. Beklager.</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="614"/>
         <source>Do you want to DELETE folder:</source>
         <oldsource>Do you want to DELETE foler:</oldsource>
-        <translation></translation>
+        <translation type="unfinished">Ønsker du å FJERNE mappen:</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="616"/>
         <source>Do you want to DELETE functions:</source>
-        <translation>Haluatko POISTAA funktiot:</translation>
+        <translation type="unfinished">Ønsker du å FJERNE funksjonen:</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="628"/>
         <source>(This will also DELETE: </source>
-        <translation></translation>
+        <translation type="unfinished">(Dette vil også FJERNE: </translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="640"/>
         <source>Delete Functions</source>
-        <translation>Poista funktioita</translation>
+        <translation type="unfinished">Fjerne Funksjonen</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="746"/>
         <source>Function</source>
-        <translation>Funktio</translation>
+        <translation type="unfinished">Funksjon</translation>
     </message>
     <message>
         <location filename="functionmanager.cpp" line="875"/>
         <source> (Copy)</source>
-        <translation></translation>
+        <translation type="unfinished">(Kopier)</translation>
     </message>
 </context>
 <context>
@@ -2749,114 +2749,114 @@ Varighet: %3
     <message>
         <location filename="functionselection.ui" line="14"/>
         <source>Select Function</source>
-        <translation>Valitse funktio</translation>
+        <translation type="unfinished">Velg Funksjon</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="22"/>
         <source>All functions</source>
-        <translation></translation>
+        <translation type="unfinished">Alle Funksjoner</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="32"/>
         <source>Running functions</source>
-        <translation></translation>
+        <translation type="unfinished">Aktive Funksjoner</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="74"/>
         <source>Filter</source>
-        <translation>Suodatus</translation>
+        <translation type="unfinished">Filter</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="80"/>
         <source>Display collections in the list</source>
-        <translation></translation>
+        <translation type="unfinished">Vis samling i listen</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="90"/>
         <source>Display scripts in the list</source>
-        <translation></translation>
+        <translation type="unfinished">Vis scripts i listen</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="93"/>
         <source>Scripts</source>
-        <translation></translation>
+        <translation type="unfinished">Scripts</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="100"/>
         <source>Display chasers in the list</source>
-        <translation></translation>
+        <translation type="unfinished">Vis chasers i listen</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="110"/>
         <source>Display RGB Matrices in the list</source>
         <oldsource>Display RGB Matrixes in the list</oldsource>
-        <translation></translation>
+        <translation type="unfinished">Vis RGB Matriser i listen</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="113"/>
         <source>RGB matrices</source>
         <oldsource>RGB matrixes</oldsource>
-        <translation></translation>
+        <translation type="unfinished">RGB matriser</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="120"/>
         <source>Display EFX&apos;s in the list</source>
-        <translation></translation>
+        <translation type="unfinished">Vis EFXer i listen</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="130"/>
         <source>Display scenes in the list</source>
-        <translation></translation>
+        <translation type="unfinished">Vis scener i listen</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="133"/>
         <source>Scenes</source>
-        <translation>Tilanteet</translation>
+        <translation type="unfinished">Scener</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="140"/>
         <source>Shows</source>
-        <translation></translation>
+        <translation type="unfinished">Shows</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="147"/>
         <source>Audio</source>
-        <translation></translation>
+        <translation type="unfinished">Lyd</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="154"/>
         <source>Video</source>
-        <translation></translation>
+        <translation type="unfinished">Video</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="103"/>
         <source>Chasers</source>
-        <translation>Juoksutukset</translation>
+        <translation type="unfinished">Chasers</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="123"/>
         <source>EFX&apos;s</source>
-        <translation>EFX:t</translation>
+        <translation type="unfinished">EFXer</translation>
     </message>
     <message>
         <location filename="functionselection.ui" line="83"/>
         <source>Collections</source>
-        <translation>Kokoelmat</translation>
+        <translation type="unfinished">Samlinger</translation>
     </message>
     <message>
         <location filename="functionselection.cpp" line="77"/>
         <source>Functions</source>
-        <translation></translation>
+        <translation type="unfinished">Funksjoner</translation>
     </message>
     <message>
         <location filename="functionselection.cpp" line="299"/>
         <source>&lt;No function&gt;</source>
-        <translation></translation>
+        <translation type="unfinished">&lt;Ingen funksjon&gt;</translation>
     </message>
     <message>
         <location filename="functionselection.cpp" line="307"/>
         <source>&lt;Create a new track&gt;</source>
-        <translation></translation>
+        <translation type="unfinished">&lt;Lag ett nytt spor&gt;</translation>
     </message>
 </context>
 <context>
@@ -2864,27 +2864,27 @@ Varighet: %3
     <message>
         <location filename="functionwizard.ui" line="14"/>
         <source>Function Wizard</source>
-        <translation>Funktiovelho</translation>
+        <translation type="unfinished">Funksjonveiviser</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="38"/>
         <source>Next</source>
-        <translation></translation>
+        <translation type="unfinished">Neste</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="52"/>
         <source>OK</source>
-        <translation></translation>
+        <translation type="unfinished">OK</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="66"/>
         <source>Cancel</source>
-        <translation></translation>
+        <translation type="unfinished">Avbryt</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="86"/>
         <source>Introduction</source>
-        <translation></translation>
+        <translation type="unfinished">Introduksjon</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="95"/>
@@ -2901,12 +2901,24 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;3- add widgets to the Virtual Console&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;To move from a step to another press the &amp;quot;Next&amp;quot; button&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation type="unfinished">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Velkommen til QLC+ veiviseren!&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Dette er en veiledet prosedyre som gjør at du kan ta i bruk QLC+ iløpet av kort tid.&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Det er i hovedsak 3 steg:&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1- legg til enhet&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2- velg egenskaper for å lage funksjoner&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;3- legg til widgets til Virtuell Konsoll&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;For å gå fra ett steg til neste, klikk på  &amp;quot;Neste &amp;quot; knappen&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="188"/>
         <source>Fixtures that will be included in automatic function creation</source>
-        <translation>Valaisimet, jotka otetaan mukaan automaattiseen funktioiden luontiin</translation>
+        <translation type="unfinished">Enheter som blir inkludert i den automatisk lagt til funksjonen</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="235"/>
@@ -2915,27 +2927,31 @@ p, li { white-space: pre-wrap; }
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/wizard.png&quot; width=&quot;24&quot; /&gt; Add the fixtures for which you want to create functions and widgets&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation type="unfinished">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/wizard.png&quot; width=&quot;24&quot; /&gt; Legg til den enheten som skal brukes til å lage funksjoner og widgets&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="247"/>
         <source>Functions</source>
-        <translation></translation>
+        <translation type="unfinished">Funksjoner</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="254"/>
         <source>Results</source>
-        <translation></translation>
+        <translation type="unfinished">Resultater</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="263"/>
         <source>Available</source>
-        <translation></translation>
+        <translation type="unfinished">Tilgjengelig</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="268"/>
         <source>Odd/Even</source>
-        <translation></translation>
+        <translation type="unfinished">Ulike/Like</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="288"/>
@@ -2944,12 +2960,16 @@ p, li { white-space: pre-wrap; }
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/wizard.png&quot; width=&quot;24&quot; /&gt; Based on the fixtures you added, I can create the functions listed on the left. Just select what you need and see the results on the right !&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation type="unfinished">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/wizard.png&quot; width=&quot;24&quot; /&gt; Funksjoner listet til venstre kan bli laget basert på den enheten som var lagt til. Velg de enheter du ønsker for å se resultatet til høyre !&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="300"/>
         <source>Virtual Console</source>
-        <translation>Virtuaalikonsoli</translation>
+        <translation type="unfinished">Virtuell Konsoll</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="318"/>
@@ -2958,73 +2978,77 @@ p, li { white-space: pre-wrap; }
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/wizard.png&quot; width=&quot;24&quot; /&gt; Based on the functions you selected, I can create the following widgets on your Virtual Console. Just check which ones you need.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation type="unfinished">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/wizard.png&quot; width=&quot;24&quot; /&gt; Nedenfor vises de widgets som kan bli laget basert på de funksjoner valgt. Velg de du ønsker å se resultatet til.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="330"/>
         <source>Widgets</source>
-        <translation></translation>
+        <translation type="unfinished">Widgets</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="129"/>
         <location filename="functionwizard.ui" line="204"/>
         <source>Fixtures</source>
-        <translation>Valaisimet</translation>
+        <translation type="unfinished">Enheter</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="209"/>
         <source>Supported capabilities</source>
-        <translation>Tuetut kyvyt</translation>
+        <translation type="unfinished">Støttede egenskaper</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="168"/>
         <source>Select fixtures that will be included in the automatically created functions</source>
-        <translation>Valitse valaisimet, jotka otetaan mukaan automaattiseen funktioiden luontiin</translation>
+        <translation type="unfinished">Velg de enheter som automatisk skal inkluderes i lagt til funksjoner</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="171"/>
         <source>Add</source>
-        <translation>Lisää</translation>
+        <translation type="unfinished">Legg til</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="135"/>
         <source>Don&apos;t include selected fixtures in the created functions</source>
-        <translation>Älä sisällytä valittuja valaisimia luotaviin funktioihin</translation>
+        <translation type="unfinished">Ikke inkluder de valgte enhetene i lagt til funksjoner</translation>
     </message>
     <message>
         <location filename="functionwizard.ui" line="138"/>
         <source>Remove</source>
-        <translation>Poista</translation>
+        <translation type="unfinished">Fjern</translation>
     </message>
     <message>
         <location filename="functionwizard.cpp" line="175"/>
         <source>%1 group</source>
-        <translation></translation>
+        <translation type="unfinished">%1 gruppe</translation>
     </message>
     <message>
         <location filename="functionwizard.cpp" line="192"/>
         <source>Error</source>
-        <translation></translation>
+        <translation type="unfinished">Feil</translation>
     </message>
     <message>
         <location filename="functionwizard.cpp" line="192"/>
         <source>%1 has no capability supported by this wizard.</source>
-        <translation></translation>
+        <translation type="unfinished">%1 har ingen egenskaper støttet av denne veiviseren.</translation>
     </message>
     <message>
         <location filename="functionwizard.cpp" line="466"/>
         <source>Presets solo frame</source>
-        <translation></translation>
+        <translation type="unfinished">Forhåndsinnstilt soloramme</translation>
     </message>
     <message>
         <location filename="functionwizard.cpp" line="519"/>
         <source>Click &amp; Go RGB</source>
-        <translation></translation>
+        <translation type="unfinished">Klikk &amp; Kjør RGB</translation>
     </message>
     <message>
         <location filename="functionwizard.cpp" line="523"/>
         <source>Click &amp; Go Macro</source>
-        <translation></translation>
+        <translation type="unfinished">Klikk &amp; Kjør Makro</translation>
     </message>
 </context>
 <context>
@@ -3032,27 +3056,27 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="grandmasterslider.cpp" line="88"/>
         <source>GM</source>
-        <translation></translation>
+        <translation type="unfinished">HF</translation>
     </message>
     <message>
         <location filename="grandmasterslider.cpp" line="142"/>
         <source>Grand Master &lt;B&gt;limits&lt;/B&gt; the maximum value of</source>
-        <translation></translation>
+        <translation type="unfinished">HovedFader &lt;B&gt;begrenser&lt;/B&gt; maks verdien til</translation>
     </message>
     <message>
         <location filename="grandmasterslider.cpp" line="145"/>
         <source>Grand Master &lt;B&gt;reduces&lt;/B&gt; the current value of</source>
-        <translation></translation>
+        <translation type="unfinished">HovedFader &lt;B&gt;reduserer&lt;/B&gt; nåverdi til</translation>
     </message>
     <message>
         <location filename="grandmasterslider.cpp" line="154"/>
         <source>intensity channels</source>
-        <translation>intensiteettikanaville</translation>
+        <translation type="unfinished">intensitet kanaler</translation>
     </message>
     <message>
         <location filename="grandmasterslider.cpp" line="157"/>
         <source>all channels</source>
-        <translation>kaikille kanaville</translation>
+        <translation type="unfinished">alle kanaler</translation>
     </message>
 </context>
 <context>
@@ -3060,27 +3084,27 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="inputchanneleditor.ui" line="13"/>
         <source>Input Channel Editor</source>
-        <translation>Sisääntulokanavan muokkaus</translation>
+        <translation type="unfinished">Inngangskanal Endring </translation>
     </message>
     <message>
         <location filename="inputchanneleditor.ui" line="19"/>
         <source>Input Channel</source>
-        <translation>Sisääntulokanava</translation>
+        <translation type="unfinished">Inngangskanal</translation>
     </message>
     <message>
         <location filename="inputchanneleditor.ui" line="25"/>
         <source>Number</source>
-        <translation>Numero</translation>
+        <translation type="unfinished">Nummer</translation>
     </message>
     <message>
         <location filename="inputchanneleditor.ui" line="32"/>
         <source>Name</source>
-        <translation>Nimi</translation>
+        <translation type="unfinished">Navn</translation>
     </message>
     <message>
         <location filename="inputchanneleditor.ui" line="39"/>
         <source>Type</source>
-        <translation>Tyyppi</translation>
+        <translation type="unfinished">Type</translation>
     </message>
 </context>
 <context>
@@ -3088,45 +3112,45 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="inputoutputmanager.cpp" line="85"/>
         <source>Add U&amp;niverse</source>
-        <translation></translation>
+        <translation type="unfinished">Legg Til U&amp;nivers</translation>
     </message>
     <message>
         <location filename="inputoutputmanager.cpp" line="91"/>
         <source>&amp;Delete Universe</source>
         <oldsource>Universe</oldsource>
-        <translation>Universumi</translation>
+        <translation type="unfinished">&amp;Fjern Univers</translation>
     </message>
     <message>
         <location filename="inputoutputmanager.cpp" line="110"/>
         <source>Universe name:</source>
-        <translation></translation>
+        <translation type="unfinished">Universnavn:</translation>
     </message>
     <message>
         <location filename="inputoutputmanager.cpp" line="120"/>
         <source>Passthrough</source>
-        <translation></translation>
+        <translation type="unfinished">Gjennomgang</translation>
     </message>
     <message>
         <location filename="inputoutputmanager.cpp" line="230"/>
         <location filename="inputoutputmanager.cpp" line="397"/>
         <source>Universe %1</source>
-        <translation></translation>
+        <translation type="unfinished">Univers %1</translation>
     </message>
     <message>
         <location filename="inputoutputmanager.cpp" line="355"/>
         <location filename="inputoutputmanager.cpp" line="374"/>
         <source>Delete Universe</source>
-        <translation></translation>
+        <translation type="unfinished">Fjern Univers</translation>
     </message>
     <message>
         <location filename="inputoutputmanager.cpp" line="356"/>
         <source>The universe you are trying to delete is patched. Are you sure you want to delete it ?</source>
-        <translation></translation>
+        <translation type="unfinished">Universet som blir fjernet er tilkoblet. Vil du virkelig fjerne det ?</translation>
     </message>
     <message>
         <location filename="inputoutputmanager.cpp" line="375"/>
         <source>There are some fixtures using the universe you are trying to delete. Are you sure you want to delete it ?</source>
-        <translation></translation>
+        <translation type="unfinished">Universet som blir fjernet er i bruk av noen enheter. Vil du virkelig fjerne det ?</translation>
     </message>
 </context>
 <context>
@@ -3134,143 +3158,143 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="inputoutputpatcheditor.ui" line="14"/>
         <source>Input/Output patch editor</source>
-        <translation></translation>
+        <translation type="unfinished">Inngang/Utgang tilkoblings endringer</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.ui" line="36"/>
         <source>Mapping</source>
-        <translation>Ohjaus</translation>
+        <translation type="unfinished">Tilkoblinger</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.ui" line="61"/>
         <source>Plugin</source>
-        <translation>Liitännäinen</translation>
+        <translation type="unfinished">Plugin</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.ui" line="66"/>
         <location filename="inputoutputpatcheditor.ui" line="231"/>
         <source>Device</source>
-        <translation></translation>
+        <translation type="unfinished">Enhet</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.ui" line="71"/>
         <location filename="inputoutputpatcheditor.ui" line="236"/>
         <source>Input</source>
-        <translation>Sisääntulo</translation>
+        <translation type="unfinished">Inngang</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.ui" line="79"/>
         <location filename="inputoutputpatcheditor.ui" line="241"/>
         <source>Output</source>
-        <translation>Ulostulo</translation>
+        <translation type="unfinished">Utgang</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.ui" line="87"/>
         <source>Feedback</source>
-        <translation></translation>
+        <translation type="unfinished">Tilbakemelding</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.ui" line="123"/>
         <location filename="inputoutputpatcheditor.ui" line="139"/>
         <source>Profile</source>
-        <translation>Profiili</translation>
+        <translation type="unfinished">Profil</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.ui" line="147"/>
         <source>Create a new input profile</source>
-        <translation>Luo uusi profiili</translation>
+        <translation type="unfinished">Legg til en ny inngangsprofil</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.ui" line="167"/>
         <source>Delete the selected input profile</source>
-        <translation>Poista valittu profiili</translation>
+        <translation type="unfinished">Fjern den valgte inngangsprofilen</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.ui" line="187"/>
         <source>Edit the selected input profile</source>
-        <translation>Muokkaa valittua profiilia</translation>
+        <translation type="unfinished">Endre den valgte inngangsprofilen</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.ui" line="221"/>
         <source>Audio</source>
-        <translation></translation>
+        <translation type="unfinished">Lyd</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.cpp" line="401"/>
         <location filename="inputoutputpatcheditor.cpp" line="419"/>
         <source>Error</source>
-        <translation></translation>
+        <translation type="unfinished">Feil</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.cpp" line="402"/>
         <location filename="inputoutputpatcheditor.cpp" line="420"/>
         <source>Output line already assigned</source>
-        <translation></translation>
+        <translation type="unfinished">Utgangslinjen er allerede i bruk</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.cpp" line="642"/>
         <location filename="inputoutputpatcheditor.cpp" line="776"/>
         <source>Existing Input Profile</source>
-        <translation>Olemassaoleva sisääntuloprofiili</translation>
+        <translation type="unfinished">Eksisterende Inngangsprofil</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.cpp" line="643"/>
         <location filename="inputoutputpatcheditor.cpp" line="777"/>
         <source>An input profile at %1 already exists. Do you wish to overwrite it?</source>
-        <translation>Sisääntuloprofiili %1 on jo olemassa. Haluatko ylikirjoittaa sen?</translation>
+        <translation type="unfinished">En inngangsprofil på %1 eksisterer allerede. Ønsker du å erstatte denne?</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.cpp" line="652"/>
         <location filename="inputoutputpatcheditor.cpp" line="786"/>
         <source>Save Input Profile</source>
-        <translation>Tallenna sisääntuloprofiili</translation>
+        <translation type="unfinished">Lagre Inngangsprofilen</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.cpp" line="653"/>
         <location filename="inputoutputpatcheditor.cpp" line="787"/>
         <source>Input Profiles (*.qxi)</source>
-        <translation>Sisääntuloprofiilit (*.qxi)</translation>
+        <translation type="unfinished">Inngangsprofiler (*.qxi)</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.cpp" line="666"/>
         <location filename="inputoutputpatcheditor.cpp" line="803"/>
         <source>Saving failed</source>
-        <translation>Tallennus epäonnistui</translation>
+        <translation type="unfinished">Lagring mislyktes</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.cpp" line="667"/>
         <source>Unable to save the profile to %1</source>
-        <translation>Profiilia ei voida tallentaa tiedostoon %1</translation>
+        <translation type="unfinished">Kan ikke lagre profilen til %1</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.cpp" line="704"/>
         <source>Delete profile</source>
-        <translation>Poista profiili</translation>
+        <translation type="unfinished">Fjern profil</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.cpp" line="705"/>
         <source>Do you wish to permanently delete profile &quot;%1&quot;?</source>
-        <translation>Haluat poistaa profiilin %1 pysyvästi?</translation>
+        <translation type="unfinished">Ønsker du å fjerne profil %1 permanent?</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.cpp" line="733"/>
         <source>File deletion failed</source>
-        <translation>Tiedoston poisto epäonnistui</translation>
+        <translation type="unfinished">Fjerning av fil mislyktes</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.cpp" line="734"/>
         <source>Unable to delete file %1</source>
-        <translation>Tiedostoa %1 ei voida poistaa</translation>
+        <translation type="unfinished">Kan ikke fjerne fil  %1</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.cpp" line="804"/>
         <source>Unable to save %1 to %2</source>
-        <translation>Profiilia %1 ei voida tallentaa tiedostoon %2</translation>
+        <translation type="unfinished">Kan ikke lagre %1 til %2</translation>
     </message>
     <message>
         <location filename="inputoutputpatcheditor.cpp" line="836"/>
         <source>Default device</source>
-        <translation></translation>
+        <translation type="unfinished">Standard enhet</translation>
     </message>
 </context>
 <context>
@@ -3278,58 +3302,58 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="inputprofileeditor.ui" line="14"/>
         <source>Input Profile Editor</source>
-        <translation>Sisääntulon profiilin muokkaus</translation>
+        <translation type="unfinished">Inngangsprofil Endringer</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="24"/>
         <source>General</source>
-        <translation>Yleinen</translation>
+        <translation type="unfinished">Generell</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="60"/>
         <source>Manufacturer</source>
-        <translation>Valmistaja</translation>
+        <translation type="unfinished">Produsent</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="30"/>
         <source>The name of the company that made the device</source>
-        <translation>Laitteen valmistaneen yrityksen nimi</translation>
+        <translation type="unfinished">Firmanavn for produsenten av enheten</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="67"/>
         <source>Model</source>
-        <translation>Malli</translation>
+        <translation type="unfinished">Modell</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="40"/>
         <source>The device&apos;s model name</source>
-        <translation>Laitteen mallin nimi</translation>
+        <translation type="unfinished">Enhets modellnavn</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="96"/>
         <source>Channels</source>
-        <translation>Kanavat</translation>
+        <translation type="unfinished">Kanaler</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="121"/>
         <source>Channel</source>
-        <translation>Kanava</translation>
+        <translation type="unfinished">Kanal</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="126"/>
         <source>Name</source>
-        <translation>Nimi</translation>
+        <translation type="unfinished">Navn</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="74"/>
         <location filename="inputprofileeditor.ui" line="131"/>
         <source>Type</source>
-        <translation>Tyyppi</translation>
+        <translation type="unfinished">Type</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="82"/>
         <source>MIDI</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="87"/>
@@ -3339,88 +3363,88 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="inputprofileeditor.ui" line="139"/>
         <source>Add a new channel description</source>
-        <translation>Lisää uusi kanavakuvaus</translation>
+        <translation type="unfinished">Legg til en ny kanalbeskrivelse</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="159"/>
         <source>Remove the selected channels</source>
-        <translation>Poista valitut kanavat</translation>
+        <translation type="unfinished">Fjern valgte kanaler</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="179"/>
         <source>Edit the selected channel</source>
-        <translation>Muokkaa valittua kanavaa</translation>
+        <translation type="unfinished">Endre den valgte kanalen</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="199"/>
         <source>Automatically add channels to the list when you wiggle the device&apos;s controls</source>
-        <translation>Lisää kanavia listaan automaattisesti kun laitteen toimintoja käytetään</translation>
+        <translation type="unfinished">Automatisk legg til kanaler i listen når kontroller på enheten beveges</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.cpp" line="91"/>
         <source>File not writable</source>
-        <translation>Tiedoston ei voida kirjoittaa</translation>
+        <translation type="unfinished">Filen er skrivebeskyttet</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.cpp" line="92"/>
         <source>You do not have permission to write to the file %1. You might not be able to save your modifications to the profile.</source>
-        <translation>Sinulla ei ole oikeuksia kirjoittaa tiedostoon %1. Et ehkä voi tallettaa muutoksiasi valittuun profiiliin.</translation>
+        <translation type="unfinished">Har ikke riktige rettigheter til å skrive fil %1. Endringer til profile kan kanskje ikke lagres.</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.cpp" line="198"/>
         <source>Missing information</source>
-        <translation>Puutteelliset tiedot</translation>
+        <translation type="unfinished">Mangler informasjon</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.cpp" line="199"/>
         <source>Manufacturer and/or model name is missing.</source>
-        <translation>Valmistaja ja/tai mallinimike puuttuu.</translation>
+        <translation type="unfinished">Produsent og/eller modellnavn mangler.</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.cpp" line="229"/>
         <location filename="inputprofileeditor.cpp" line="325"/>
         <source>Channel already exists</source>
-        <translation>Kanava on jo olemassa</translation>
+        <translation type="unfinished">Kanal eksisterer allerede</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.cpp" line="230"/>
         <location filename="inputprofileeditor.cpp" line="326"/>
         <source>Channel %1 already exists</source>
-        <translation>Kanava %1 on jo olemassa</translation>
+        <translation type="unfinished">Kanal %1 ekisterer allerede</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.cpp" line="252"/>
         <source>Delete channels</source>
-        <translation>Poista kanavia</translation>
+        <translation type="unfinished">Fjern kanaler</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.cpp" line="253"/>
         <source>Delete all %1 selected channels?</source>
-        <translation>Poistetaanko kaikki %1 valittua kanavaa?</translation>
+        <translation type="unfinished">Fjern alle %1 valgte kanaler?</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.cpp" line="366"/>
         <source>Channel wizard activated</source>
-        <translation>Kanavavelho on aktiivisena</translation>
+        <translation type="unfinished">Kanalveiviser aktivert</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.cpp" line="367"/>
         <source>You have enabled the input channel wizard. After clicking OK, wiggle your mapped input profile&apos;s controls. They should appear into the list. Click the wizard button again to stop channel auto-detection.
 
 Note that the wizard cannot tell the difference between a knob and a slider so you will have to do the change manually.</source>
-        <translation>Olet aktivoinut velhon. Klikattuasi OK-nappia, heiluttele laitteen ohjaimia edestakaisin. Jokaisesta erillisestä ohjaimesta pitäisi ilmaantua uusi kanava listaan. Klikkaa velho-nappia uudelleen lopettaaksesi kanavien automaattisen haun.
+        <translation type="unfinished">Inngangskanalveiviser aktivert. Klikk OK, for så å beveg på tilkoblet kontroller til inngangsprofilen. Inngangskanaler vil vises i listen. Klikk veiviserknappen igjen for å stoppe autodeteksjon av kanaler.
 
-Huomaa, että velho ei osaa erottaa pyöritettävää nuppia ja liukua toisistaan, joten sinun täytyy tehdä vastaavat muutokset käsin.</translation>
+Veiviser kan ikke detektere forskjell på en knapp og slider, dette må tildeles manuelt.</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.cpp" line="411"/>
         <source>Button %1</source>
-        <translation>Nappi %1</translation>
+        <translation type="unfinished">Knapp %1</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.cpp" line="451"/>
         <source>Slider %1</source>
-        <translation>Liuku %1</translation>
+        <translation type="unfinished">Slider %1</translation>
     </message>
 </context>
 <context>
@@ -3428,102 +3452,102 @@ Huomaa, että velho ei osaa erottaa pyöritettävää nuppia ja liukua toisistaa
     <message>
         <location filename="monitor.cpp" line="257"/>
         <source>Fixture Monitor</source>
-        <translation>Valaisinten monitorointi</translation>
+        <translation type="unfinished">Enhetsmonitor</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="289"/>
         <source>2D View</source>
-        <translation></translation>
+        <translation type="unfinished">2D Visning</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="296"/>
         <source>Font</source>
-        <translation>Kirjasin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="305"/>
         <source>DMX Channels</source>
-        <translation>DMX-kanavat</translation>
+        <translation type="unfinished">DMX Kanaler</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="306"/>
         <source>Show absolute DMX channel numbers</source>
-        <translation>Näytä absoluuttiset DMX-kanavien numerot</translation>
+        <translation type="unfinished">Vis absolutt DMX kanalnummer</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="316"/>
         <source>Relative Channels</source>
-        <translation>Suhteelliset kanavat</translation>
+        <translation type="unfinished">Relative Kanaler</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="317"/>
         <source>Show channel numbers relative to fixture</source>
-        <translation>Näytä kanavanumerot suhteessa valaisimeen</translation>
+        <translation type="unfinished">Vis kanalnummer i henhold til enhet</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="333"/>
         <source>DMX Values</source>
-        <translation>DMX-arvot</translation>
+        <translation type="unfinished">DMX Verdier</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="334"/>
         <source>Show DMX values 0-255</source>
-        <translation>Näytä DMX-arvot 0-255</translation>
+        <translation type="unfinished">Vis DMX verdier 0-255</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="345"/>
         <source>Percent Values</source>
-        <translation>Prosenttiarvot</translation>
+        <translation type="unfinished">Prosentverdier</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="346"/>
         <source>Show percentage values 0-100%</source>
-        <translation>Näytä prosentuaaliset arvot 0-100%</translation>
+        <translation type="unfinished">Vis prosentverdier 0-100%</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="359"/>
         <source>Universe:</source>
-        <translation></translation>
+        <translation type="unfinished">Univers:</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="364"/>
         <source>All universes</source>
-        <translation></translation>
+        <translation type="unfinished">Alle universer</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="386"/>
         <source>DMX View</source>
-        <translation></translation>
+        <translation type="unfinished">DMX Visning</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="392"/>
         <source>Size:</source>
-        <translation></translation>
+        <translation type="unfinished">Størrelse:</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="416"/>
         <source>Meters</source>
-        <translation></translation>
+        <translation type="unfinished">Meter</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="417"/>
         <source>Feet</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="426"/>
         <source>Add fixture</source>
-        <translation>Lisää valaisin</translation>
+        <translation type="unfinished">Legg til enhet</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="428"/>
         <source>Remove fixture</source>
-        <translation></translation>
+        <translation type="unfinished">Fjern enhet</translation>
     </message>
     <message>
         <location filename="monitor.cpp" line="433"/>
         <source>Show/hide labels</source>
-        <translation></translation>
+        <translation type="unfinished">Vis/skjul etiketter</translation>
     </message>
 </context>
 <context>
@@ -3531,47 +3555,47 @@ Huomaa, että velho ei osaa erottaa pyöritettävää nuppia ja liukua toisistaa
     <message>
         <location filename="monitorfixturepropertieseditor.ui" line="14"/>
         <source>Monitor Fixture Properties Editor</source>
-        <translation></translation>
+        <translation type="unfinished">Monitor Enhetsegenskaper Endringer</translation>
     </message>
     <message>
         <location filename="monitorfixturepropertieseditor.ui" line="30"/>
         <source>Gel color:</source>
-        <translation></translation>
+        <translation type="unfinished">Filter farge:</translation>
     </message>
     <message>
         <location filename="monitorfixturepropertieseditor.ui" line="37"/>
         <source>Position and rotation</source>
-        <translation></translation>
+        <translation type="unfinished">Posisjon og rotasjon</translation>
     </message>
     <message>
         <location filename="monitorfixturepropertieseditor.ui" line="53"/>
         <source>Vertical:</source>
-        <translation></translation>
+        <translation type="unfinished">Vertikal:</translation>
     </message>
     <message>
         <location filename="monitorfixturepropertieseditor.ui" line="60"/>
         <source>Horizontal:</source>
-        <translation></translation>
+        <translation type="unfinished">Horisontal:</translation>
     </message>
     <message>
         <location filename="monitorfixturepropertieseditor.ui" line="77"/>
         <source>Rotation:</source>
-        <translation></translation>
+        <translation type="unfinished">Rotasjon:</translation>
     </message>
     <message>
         <location filename="monitorfixturepropertieseditor.ui" line="99"/>
         <source>Set the color of the gel installed on the fixture</source>
-        <translation></translation>
+        <translation type="unfinished">Velg farge på filteret installert i enheten</translation>
     </message>
     <message>
         <location filename="monitorfixturepropertieseditor.ui" line="112"/>
         <source>Reset the current color</source>
-        <translation></translation>
+        <translation type="unfinished">Tilbakestill filterfargen</translation>
     </message>
     <message>
         <location filename="monitorfixturepropertieseditor.ui" line="152"/>
         <source>Fixture name:</source>
-        <translation></translation>
+        <translation type="unfinished">Enhetsnavn:</translation>
     </message>
 </context>
 <context>
@@ -3579,17 +3603,17 @@ Huomaa, että velho ei osaa erottaa pyöritettävää nuppia ja liukua toisistaa
     <message>
         <location filename="multitrackview.cpp" line="498"/>
         <source>Click to move this sequence across the timeline</source>
-        <translation></translation>
+        <translation type="unfinished">Kilkk for å flytte denne sekvensen bortover tidslinjen</translation>
     </message>
     <message>
         <location filename="multitrackview.cpp" line="508"/>
         <source>Click to move this audio across the timeline</source>
-        <translation></translation>
+        <translation type="unfinished">Klikk for å flytte lyden bortover tidslinjen</translation>
     </message>
     <message>
         <location filename="multitrackview.cpp" line="317"/>
         <source>Do you want to DELETE sequence:</source>
-        <translation></translation>
+        <translation type="unfinished">Ønsker du å FJERNE sekvens:</translation>
     </message>
     <message>
         <location filename="multitrackview.cpp" line="320"/>
@@ -3597,27 +3621,27 @@ Huomaa, että velho ei osaa erottaa pyöritettävää nuppia ja liukua toisistaa
         <location filename="multitrackview.cpp" line="362"/>
         <location filename="multitrackview.cpp" line="397"/>
         <source>Delete Functions</source>
-        <translation>Poista funktioita</translation>
+        <translation type="unfinished">Fjern Funksjoner</translation>
     </message>
     <message>
         <location filename="multitrackview.cpp" line="336"/>
         <source>Do you want to DELETE audio (the source file will NOT be removed):</source>
-        <translation></translation>
+        <translation type="unfinished">Ønsker du å FJERNE lyd (kildefilen vil IKKE bli fjernet):</translation>
     </message>
     <message>
         <location filename="multitrackview.cpp" line="358"/>
         <source>Do you want to DELETE video (the source file will NOT be removed):</source>
-        <translation></translation>
+        <translation type="unfinished">Ønsker du å FJERNE video (kildefilen vil IKKE bli fjernet):</translation>
     </message>
     <message>
         <location filename="multitrackview.cpp" line="384"/>
         <source>Do you want to DELETE scene:</source>
-        <translation></translation>
+        <translation type="unfinished">Ønsker du å FJERNE scene:</translation>
     </message>
     <message>
         <location filename="multitrackview.cpp" line="387"/>
         <source>This operation will also DELETE:</source>
-        <translation></translation>
+        <translation type="unfinished">Denne operasjonen vil også FJERNE: </translation>
     </message>
     <message>
         <location filename="multitrackview.cpp" line="494"/>
@@ -3627,12 +3651,15 @@ Huomaa, että velho ei osaa erottaa pyöritettävää nuppia ja liukua toisistaa
 Start time: %2
 Duration: %3
 %4</source>
-        <translation></translation>
+        <translation type="unfinished">Navn: %1
+Starttid: %2
+Varighet: %3
+%4</translation>
     </message>
     <message>
         <location filename="multitrackview.cpp" line="519"/>
         <source>Click to move this video across the timeline</source>
-        <translation></translation>
+        <translation type="unfinished">Klikk for å flytte videoen bortover tidslinjen</translation>
     </message>
 </context>
 <context>
@@ -3641,129 +3668,129 @@ Duration: %3
         <location filename="palettegenerator.cpp" line="98"/>
         <source>Primary colours</source>
         <oldsource>Primary colors</oldsource>
-        <translation></translation>
+        <translation type="unfinished">Hovedfarger</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="99"/>
         <source>16 Colours</source>
         <oldsource>16 Colors</oldsource>
-        <translation></translation>
+        <translation type="unfinished">16 Farger</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="100"/>
         <source>Shutter macros</source>
-        <translation></translation>
+        <translation type="unfinished">Lukker makroer</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="101"/>
         <source>Gobo macros</source>
-        <translation></translation>
+        <translation type="unfinished">Gobo makroer</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="102"/>
         <source>Colour macros</source>
         <oldsource>Color macros</oldsource>
-        <translation></translation>
+        <translation type="unfinished">Farge makroer</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="103"/>
         <source>Animations</source>
-        <translation></translation>
+        <translation type="unfinished">Animasjoner</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="106"/>
         <source>Unknown</source>
-        <translation>Tuntematon</translation>
+        <translation type="unfinished">Ukjent</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="255"/>
         <source>%1 - %2 (Even)</source>
-        <translation></translation>
+        <translation type="unfinished">%1 - %2 (Like)</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="256"/>
         <source>%1 - %2 (Odd)</source>
-        <translation></translation>
+        <translation type="unfinished">%1 - %2 (Ulike)</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="280"/>
         <source>Black</source>
-        <translation></translation>
+        <translation type="unfinished">Svart</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="280"/>
         <source>Dark Blue</source>
-        <translation></translation>
+        <translation type="unfinished">Mørkeblå</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="280"/>
         <source>Blue</source>
-        <translation></translation>
+        <translation type="unfinished">Blå</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="280"/>
         <source>Dark Green</source>
-        <translation></translation>
+        <translation type="unfinished">Mørkegrønn</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="281"/>
         <source>Dark Cyan</source>
-        <translation></translation>
+        <translation type="unfinished">Mørketurkis</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="281"/>
         <source>Green</source>
-        <translation></translation>
+        <translation type="unfinished">Grønn</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="281"/>
         <source>Cyan</source>
-        <translation></translation>
+        <translation type="unfinished">Turkis</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="281"/>
         <source>Dark Red</source>
-        <translation></translation>
+        <translation type="unfinished">Mørkerød</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="282"/>
         <source>Dark Magenta</source>
-        <translation></translation>
+        <translation type="unfinished">Mørkemagenta</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="282"/>
         <source>Dark Yellow</source>
-        <translation></translation>
+        <translation type="unfinished">Mørkegul</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="282"/>
         <source>Dark Gray</source>
-        <translation></translation>
+        <translation type="unfinished">Mørkegrå</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="282"/>
         <source>Light Gray</source>
-        <translation></translation>
+        <translation type="unfinished">Lysegrå</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="283"/>
         <source>Red</source>
-        <translation></translation>
+        <translation type="unfinished">Rød</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="283"/>
         <source>Magenta</source>
-        <translation></translation>
+        <translation type="unfinished">Magenta</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="283"/>
         <source>Yellow</source>
-        <translation></translation>
+        <translation type="unfinished">Gul</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="283"/>
         <source>White</source>
-        <translation></translation>
+        <translation type="unfinished">Hvit</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="335"/>
@@ -3773,78 +3800,78 @@ Duration: %3
     <message>
         <location filename="palettegenerator.cpp" line="339"/>
         <source>%1 %2 - %3 (Even)</source>
-        <translation></translation>
+        <translation type="unfinished">%1 %2 - %3 (Like)</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="340"/>
         <source>%1 %2 - %3 (Odd)</source>
-        <translation></translation>
+        <translation type="unfinished">%1 %2 - %3 (Ulike)</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="402"/>
         <source> - Even</source>
-        <translation></translation>
+        <translation type="unfinished"> - Like</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="403"/>
         <source> - Odd</source>
-        <translation></translation>
+        <translation type="unfinished"> - Ulike</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="420"/>
         <source> - RGB Group</source>
-        <translation></translation>
+        <translation type="unfinished">- RGB Gruppe</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="426"/>
         <source>Animation %1</source>
-        <translation></translation>
+        <translation type="unfinished">Animasjon %1</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="445"/>
         <source>%1 chaser - %2</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="517"/>
         <source>Red scene</source>
-        <translation></translation>
+        <translation type="unfinished">Rød scene</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="518"/>
         <source>Green scene</source>
-        <translation></translation>
+        <translation type="unfinished">Grønn scene</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="519"/>
         <source>Blue scene</source>
-        <translation></translation>
+        <translation type="unfinished">Blå scene</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="520"/>
         <source>Cyan scene</source>
-        <translation></translation>
+        <translation type="unfinished">Turkis scene</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="521"/>
         <source>Magenta scene</source>
-        <translation></translation>
+        <translation type="unfinished">Magenta scene</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="522"/>
         <source>Yellow scene</source>
-        <translation></translation>
+        <translation type="unfinished">Gul scene</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="523"/>
         <source>White scene</source>
-        <translation></translation>
+        <translation type="unfinished">Hvit scene</translation>
     </message>
     <message>
         <location filename="palettegenerator.cpp" line="530"/>
         <location filename="palettegenerator.cpp" line="532"/>
         <source>Scene</source>
-        <translation></translation>
+        <translation type="unfinished">Scene</translation>
     </message>
 </context>
 <context>
@@ -3852,12 +3879,12 @@ Duration: %3
     <message>
         <location filename="playbackslider.cpp" line="52"/>
         <source>Select</source>
-        <translation></translation>
+        <translation type="unfinished">Velg</translation>
     </message>
     <message>
         <location filename="playbackslider.cpp" line="83"/>
         <source>Flash</source>
-        <translation></translation>
+        <translation type="unfinished">Blink</translation>
     </message>
 </context>
 <context>
@@ -3865,7 +3892,7 @@ Duration: %3
     <message>
         <location filename="positiontool.ui" line="14"/>
         <source>PositonTool</source>
-        <translation></translation>
+        <translation type="unfinished">Posisjonsverktøy</translation>
     </message>
 </context>
 <context>
@@ -3873,18 +3900,18 @@ Duration: %3
     <message>
         <location filename="app.cpp" line="65"/>
         <source>Operate</source>
-        <translation>Käyttötila</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="app.cpp" line="66"/>
         <source>Design</source>
-        <translation>Suunnittelu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="vcxypadfixture.cpp" line="233"/>
         <location filename="vcxypadfixture.cpp" line="268"/>
         <source>Reversed</source>
-        <translation>Käänteinen</translation>
+        <translation type="unfinished">Reversert</translation>
     </message>
 </context>
 <context>
@@ -3892,57 +3919,57 @@ Duration: %3
     <message>
         <location filename="rgbmatrixeditor.ui" line="14"/>
         <source>RGB Matrix Editor</source>
-        <translation></translation>
+        <translation type="unfinished">RGB Matrise Endringer</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="368"/>
         <source>RGB matrix name</source>
-        <translation></translation>
+        <translation type="unfinished">RGB matrisenavn</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="381"/>
         <source>The name of this RGB matrix function</source>
-        <translation></translation>
+        <translation type="unfinished">RGB matrise funksjonsnavn</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="412"/>
         <source>Save this matrix to a sequence</source>
-        <translation></translation>
+        <translation type="unfinished">Tilegne denne matrisen til en sekvens</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="438"/>
         <source>Fixture group</source>
-        <translation></translation>
+        <translation type="unfinished">Enhetsgruppe</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="451"/>
         <source>The fixture group to use as the pixel matrix</source>
-        <translation></translation>
+        <translation type="unfinished">Enhetsgruppe for å bruke som pixelmatrise</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="28"/>
         <source>Pattern</source>
-        <translation>Kuvio</translation>
+        <translation type="unfinished">Mønster</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="77"/>
         <source>The RGB matrix pattern</source>
-        <translation></translation>
+        <translation type="unfinished">RGB matrisemønster</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="87"/>
         <source>Animated Text</source>
-        <translation></translation>
+        <translation type="unfinished">Animert Tekst</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="99"/>
         <source>Text to display</source>
-        <translation></translation>
+        <translation type="unfinished">Tekst som skal vises</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="106"/>
         <source>Choose the font</source>
-        <translation></translation>
+        <translation type="unfinished">Velg skrift</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="53"/>
@@ -3954,17 +3981,17 @@ Duration: %3
     <message>
         <location filename="rgbmatrixeditor.ui" line="50"/>
         <source>Reset end colour</source>
-        <translation></translation>
+        <translation type="unfinished">Tilbakestill sluttfarge</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="126"/>
         <source>Animation style</source>
-        <translation></translation>
+        <translation type="unfinished">Animasjon stil</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="136"/>
         <source>Image</source>
-        <translation></translation>
+        <translation type="unfinished">Bilde</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="175"/>
@@ -3979,7 +4006,7 @@ Duration: %3
     <message>
         <location filename="rgbmatrixeditor.ui" line="188"/>
         <source>Shift the pattern X pixels horizontally</source>
-        <translation></translation>
+        <translation type="unfinished">Flytt mønsteret X pixler horisontalt</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="201"/>
@@ -3989,108 +4016,108 @@ Duration: %3
     <message>
         <location filename="rgbmatrixeditor.ui" line="208"/>
         <source>Shift the pattern Y pixels vertically</source>
-        <translation></translation>
+        <translation type="unfinished">Flytt mønsteret Y piksler vertikalt</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="305"/>
         <source>Run Order</source>
-        <translation>Ajojärjestys</translation>
+        <translation type="unfinished">Rekkefølge</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="311"/>
         <source>Run through over and over again</source>
-        <translation></translation>
+        <translation type="unfinished">Gjenta om-og-om igjen </translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="314"/>
         <source>Loop</source>
-        <translation>Silmukka</translation>
+        <translation type="unfinished">Gjenta</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="324"/>
         <source>Run through once and stop</source>
-        <translation></translation>
+        <translation type="unfinished">Kjør en gang og stopp</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="327"/>
         <source>Single Shot</source>
-        <translation>Kertalaukaus</translation>
+        <translation type="unfinished">En Gang</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="334"/>
         <source>First run forwards, then backwards, again forwards, etc.</source>
-        <translation>Aja ensin alusta loppuun, sitten lopusta alkuun, taas alusta loppuun, jne.</translation>
+        <translation type="unfinished">Kjør fremover først, så bakover, framover igjen, osv.</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="337"/>
         <source>Ping Pong</source>
-        <translation>Edestakaisin</translation>
+        <translation type="unfinished">Fram-og-Tilbake</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="251"/>
         <source>Direction</source>
-        <translation>Suunta</translation>
+        <translation type="unfinished">Retning</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="64"/>
         <source>Matrix start colour</source>
-        <translation></translation>
+        <translation type="unfinished">Matrise startfarge</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="34"/>
         <source>Matrix end colour</source>
         <oldsource>Matrix end color</oldsource>
-        <translation></translation>
+        <translation type="unfinished">Matrise sluttfarge</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="257"/>
         <source>Start from the first step</source>
-        <translation>Aloita ensimmäisestä askeleesta</translation>
+        <translation type="unfinished">Start fra det første steget</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="260"/>
         <source>Forward</source>
-        <translation></translation>
+        <translation type="unfinished">Framover</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="270"/>
         <source>Start from the last step</source>
-        <translation>Aloita viimeisestä askeleesta</translation>
+        <translation type="unfinished">Start fra det siste steget</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="273"/>
         <source>Backward</source>
-        <translation></translation>
+        <translation type="unfinished">Bakover</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="392"/>
         <source>Show/Hide speed dial window</source>
-        <translation></translation>
+        <translation type="unfinished">Vis/Skjul hastighetsvindu</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="347"/>
         <source>See what the RGB Matrix does when it is run</source>
-        <translation></translation>
+        <translation type="unfinished">Forhåndsvisning av RGB Matrisen når den er i bruk</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.ui" line="350"/>
         <source>Test Run</source>
-        <translation></translation>
+        <translation type="unfinished">Prøvekjør</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.cpp" line="257"/>
         <source>None</source>
-        <translation>Ei mitään</translation>
+        <translation type="unfinished">Ingen</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.cpp" line="353"/>
         <source>No fixture group to control</source>
-        <translation></translation>
+        <translation type="unfinished">Ingen enhetsgruppe å kontrollere</translation>
     </message>
     <message>
         <location filename="rgbmatrixeditor.cpp" line="634"/>
         <source>Select image</source>
-        <translation></translation>
+        <translation type="unfinished">Velg bilde</translation>
     </message>
 </context>
 <context>
